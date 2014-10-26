@@ -240,11 +240,11 @@ $CMP MCP23S17
 D spi gpio expander (MCP23S17)
 $ENDCMP
 #
-$CMP MOS_N
+$CMP MOSFET-N
 D n channel mosfet transistor
 $ENDCMP
 #
-$CMP MOS_P
+$CMP MOSFET-P
 D p channel mosfet transistor
 $ENDCMP
 #
