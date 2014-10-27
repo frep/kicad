@@ -193,6 +193,7 @@ $ENDCMP
 #
 $CMP CRYSTAL
 D crystal oscillator
+F ../docs/Abfallplan_GLN2011_V4.pdf
 $ENDCMP
 #
 $CMP DIODE
@@ -219,6 +220,10 @@ D lcd char display 16x2 (HD44780)
 K LCD
 $ENDCMP
 #
+$CMP INDUCTOR
+D inductor
+$ENDCMP
+#
 $CMP JUMPER
 D jumper
 $ENDCMP
@@ -230,6 +235,12 @@ $ENDCMP
 $CMP LED
 D led
 K LED
+$ENDCMP
+#
+$CMP LP2985LV
+D MICROPOWER 150mA Regulator 
+K REGUL POWER  SOT23-5
+F regulator/LP2985.pdf
 $ENDCMP
 #
 $CMP MC14551
