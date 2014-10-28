@@ -211,6 +211,7 @@ $ENDCMP
 $CMP FT232RL
 D USB to serial interface
 K USB
+F doc/FT232R.pdf
 $ENDCMP
 #
 $CMP FUSE
@@ -242,7 +243,7 @@ $ENDCMP
 $CMP LP2985LV
 D MICROPOWER 150mA Regulator 
 K REGUL POWER  SOT23-5
-F regulator/LP2985.pdf
+F doc/LP2985.pdf
 $ENDCMP
 #
 $CMP MC14551
