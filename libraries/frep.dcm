@@ -273,6 +273,11 @@ $CMP OLED-1602
 D oled char display 16x2
 $ENDCMP
 #
+$CMP OPAMP-DUALU
+D OpAmp dual-unit
+F doc/lm358.pdf
+$ENDCMP
+#
 $CMP R
 D resistor
 K R DEV
