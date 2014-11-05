@@ -195,7 +195,6 @@ $ENDCMP
 #
 $CMP CRYSTAL
 D crystal oscillator
-F ../docs/Abfallplan_GLN2011_V4.pdf
 $ENDCMP
 #
 $CMP DIODE
