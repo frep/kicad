@@ -1,6 +1,6 @@
 kicad
 =====
-workspace for kicad projects
+workspace for [kicad](http://www.kicad-pcb.org/) projects
 
 To Do's:
 --------------
