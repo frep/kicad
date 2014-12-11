@@ -303,6 +303,12 @@ D usb mini connector
 K CONN
 $ENDCMP
 #
+$CMP USB-MINI-B-Vert
+D usb mini connector vertical
+K CONN
+F doc/USB_mini_vertical.pdf
+$ENDCMP
+#
 $CMP ZENER
 D zener diode
 K DEV DIODE
