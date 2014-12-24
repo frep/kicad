@@ -8,6 +8,6 @@ The RAS (Radxa Arduino Shield) is an addon-shield for the radxa rock (pro). It c
 
 Lab bench PSU
 -------------
-A current-controlled, voltage-controlled lab bench psu based on the (usupply)[http://www.eevblog.com/projects/usupply/] from David Jones. Instead of being portable, my focus is to transform an old pc-psu into an lab bench psu.   
+A current-controlled, voltage-controlled lab bench psu based on the [usupply](http://www.eevblog.com/projects/usupply/) from David Jones. Instead of being portable, my focus is to transform an old pc-psu into an lab bench psu.   
 
 
