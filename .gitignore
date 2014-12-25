@@ -1,4 +1,4 @@
 # ignore backup-files
 *.bak
 *.bck
-*.kicad_pcb-back
+*.kicad_pcb-bak
