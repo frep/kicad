@@ -1,3 +1,4 @@
-# ignore library-backups
-libraries/frep.bak
-libraries/frep.bck
+# ignore backup-files
+*.bak
+*.bck
+*.kicad_pcb-back
