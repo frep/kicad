@@ -298,6 +298,12 @@ D thyristor
 K DEV DIODE
 $ENDCMP
 #
+$CMP USB-A-stacked
+D USB A connector stacked (2x)
+K conn
+F doc/USB_A_Conn_stacked.pdf
+$ENDCMP
+#
 $CMP USB-MINI-B
 D usb mini connector
 K CONN
