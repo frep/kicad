@@ -35,7 +35,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Lab Bench PSU"
 Date "25.12.2014"
 Rev "A"
@@ -727,4 +727,10 @@ $EndSheet
 Wire Wire Line
 	4250 1650 4500 1650
 Connection ~ 4250 3800
+$Sheet
+S 8275 1175 1325 850 
+U 54A01D2E
+F0 "PSU" 50
+F1 "PSU.sch" 50
+$EndSheet
 $EndSCHEMATC

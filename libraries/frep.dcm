@@ -228,8 +228,18 @@ D lcd char display 16x2 (HD44780)
 K LCD
 $ENDCMP
 #
+$CMP INA219
+D i2c zero-drift bidirectional current monitor
+F doc/INA219.pdf
+$ENDCMP
+#
 $CMP INDUCTOR
 D inductor
+$ENDCMP
+#
+$CMP ISL21070
+D voltage reference (2.048V)
+F doc/isl21070.pdf
 $ENDCMP
 #
 $CMP JUMPER
@@ -245,10 +255,25 @@ D led
 K LED
 $ENDCMP
 #
+$CMP LM334Z
+D adjustable current source
+F doc/LM334Z.pdf
+$ENDCMP
+#
 $CMP LP2985LV
 D MICROPOWER 150mA Regulator 
 K REGUL POWER  SOT23-5
 F doc/LP2985.pdf
+$ENDCMP
+#
+$CMP LT3080
+D Linear voltage regulator 1A
+F doc/LT3080.pdf
+$ENDCMP
+#
+$CMP LT3083
+D Linear voltage regulator 3A
+F doc/LT3083.pdf
 $ENDCMP
 #
 $CMP MC14551
@@ -264,6 +289,11 @@ $ENDCMP
 $CMP MCP23S17
 D spi gpio expander (MCP23S17)
 F doc/MCP23S17.pdf
+$ENDCMP
+#
+$CMP MCP4716
+D i2c 10bit DAC
+F doc/MCP4716.pdf
 $ENDCMP
 #
 $CMP MOSFET-N
