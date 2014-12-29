@@ -367,7 +367,7 @@ F 3 "" H 6100 3575 60  0000 C CNN
 	1    6100 3575
 	1    0    0    -1  
 $EndComp
-Text Notes 4900 4525 0    60   ~ 0
+Text Notes 4900 4475 0    60   ~ 0
 DC-DC
 $Comp
 L MCP4017 U?
@@ -553,10 +553,14 @@ Wire Notes Line
 	7350 4175 7350 5050
 Text Notes 7450 4950 0    60   ~ 0
 EPOT\n5K 128 Tap
-Text Notes 6475 5175 0    60   ~ 0
+Text Notes 6325 5175 0    60   ~ 0
 R = [584R ... 3K6]
 Wire Notes Line
 	7350 5050 6325 5050
-Text Notes 4850 5525 0    60   ~ 0
+Text Notes 4850 5500 0    60   ~ 0
 V_OUT = [4.8V ... 22.9V]
+Text Notes 6325 5500 0    60   ~ 0
+R: 4470\nR: 28
+Text Notes 6725 5500 0    60   ~ 0
+=> V_Out = 5V\n=> V_Out = 22V
 $EndSCHEMATC

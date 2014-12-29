@@ -1131,4 +1131,10 @@ Text HLabel 9450 5350 2    60   Input ~ 0
 CLIM
 Text HLabel 9775 3000 0    60   Input ~ 0
 ADC-VOUT
+Text HLabel 2450 3900 2    60   Output ~ 0
+V_REF
+Wire Wire Line
+	2350 4075 2350 3900
+Wire Wire Line
+	2350 3900 2450 3900
 $EndSCHEMATC
