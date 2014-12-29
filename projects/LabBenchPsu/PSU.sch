@@ -1137,4 +1137,10 @@ Wire Wire Line
 	2350 4075 2350 3900
 Wire Wire Line
 	2350 3900 2450 3900
+Text HLabel 7075 5550 2    60   Output ~ 0
+ADC-IOUT
+Wire Wire Line
+	7075 5550 7000 5550
+Wire Wire Line
+	7000 5550 7000 5650
 $EndSCHEMATC

@@ -340,6 +340,11 @@ K POWER REGULATOR
 F doc/MCP1700.pdf
 $ENDCMP
 #
+$CMP MCP23008
+D I2C GPIO expander
+F doc/mcp23008.pdf
+$ENDCMP
+#
 $CMP MCP23017
 D i2c gpio expander (MCP23017)
 F doc/MCP23S17.pdf
@@ -386,6 +391,16 @@ $ENDCMP
 $CMP R
 D resistor
 K R DEV
+$ENDCMP
+#
+$CMP Resonator
+D Resonator 8MHz 15pF
+F doc/Resonator8MHz15pFSMD.pdf
+$ENDCMP
+#
+$CMP RotaryEncoder
+D Rotary Encoder
+F doc/BournsRotary.pdf
 $ENDCMP
 #
 $CMP TAC_SWITCH
