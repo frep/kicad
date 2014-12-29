@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 2N3904
+D 2N3904, 40V Vce, 0.2A Ic, Low Noise NPN Transistor,TO-92
+F doc/2N3904.pdf
+$ENDCMP
+#
 $CMP AP7333
 D LDO VReg +3.3V
 K POWER REGULATOR
@@ -281,6 +286,12 @@ D Quad 2-Channel Analog Multiplexer/Demultiplexer
 F doc/MC14551B.pdf
 $ENDCMP
 #
+$CMP MCP1700
+D LDO VReg +3.3V
+K POWER REGULATOR
+F doc/MCP1700.pdf
+$ENDCMP
+#
 $CMP MCP23017
 D i2c gpio expander (MCP23017)
 F doc/MCP23S17.pdf
@@ -289,6 +300,11 @@ $ENDCMP
 $CMP MCP23S17
 D spi gpio expander (MCP23S17)
 F doc/MCP23S17.pdf
+$ENDCMP
+#
+$CMP MCP4017
+D I2C 7-bit digital POT
+F doc/mcp4017.pdf
 $ENDCMP
 #
 $CMP MCP4716
@@ -312,6 +328,11 @@ $ENDCMP
 $CMP OPAMP-DUALU
 D OpAmp dual-unit
 F doc/lm358.pdf
+$ENDCMP
+#
+$CMP PAM2423
+D PWM STEP-UP DC-DC CONVERTER
+F doc/PAM242x.pdf
 $ENDCMP
 #
 $CMP R
