@@ -1,8 +1,18 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 24AA04
+D i2c eeprom 4K
+F doc/MC24AA04.pdf
+$ENDCMP
+#
 $CMP 2N3904
 D 2N3904, 40V Vce, 0.2A Ic, Low Noise NPN Transistor,TO-92
 F doc/2N3904.pdf
+$ENDCMP
+#
+$CMP AD5274
+D i2c EPOT 20K 256 tabs
+F doc/AD5274.pdf
 $ENDCMP
 #
 $CMP AP7333
@@ -365,6 +375,11 @@ D i2c 10bit DAC
 F doc/MCP4716.pdf
 $ENDCMP
 #
+$CMP MCP73833
+D 1cell lipo charger adj current
+F doc/MCP73833.pdf
+$ENDCMP
+#
 $CMP MOSFET-N
 D n channel mosfet transistor
 F doc/BSS138.pdf
@@ -375,6 +390,10 @@ D p channel mosfet transistor
 $ENDCMP
 #
 $CMP OLED-1602
+D oled char display 16x2
+$ENDCMP
+#
+$CMP OLED-2004
 D oled char display 16x2
 $ENDCMP
 #
@@ -405,6 +424,11 @@ $ENDCMP
 #
 $CMP TAC_SWITCH
 D tactile switch
+$ENDCMP
+#
+$CMP THERMISTOR
+D Resistance
+K R DEV
 $ENDCMP
 #
 $CMP THYRISTOR
