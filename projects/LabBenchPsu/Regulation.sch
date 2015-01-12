@@ -43,7 +43,7 @@ Comp ""
 Comment1 ""
 Comment2 ""
 Comment3 ""
-Comment4 ""
+Comment4 "- Voltage preregulation with boost converter"
 $EndDescr
 Text HLabel 3000 2425 0    60   Input ~ 0
 5V_direct
@@ -216,7 +216,7 @@ L CP1 C?
 U 1 1 54A1BB0D
 P 3300 3775
 F 0 "C?" H 3350 3875 50  0000 L CNN
-F 1 "470uF" H 3350 3675 50  0000 L CNN
+F 1 "47uF" H 3350 3675 50  0000 L CNN
 F 2 "" H 3300 3775 60  0000 C CNN
 F 3 "" H 3300 3775 60  0000 C CNN
 	1    3300 3775
@@ -227,7 +227,7 @@ L CP1 C?
 U 1 1 54A1BB24
 P 7000 3775
 F 0 "C?" H 7050 3875 50  0000 L CNN
-F 1 "470uF" H 7050 3675 50  0000 L CNN
+F 1 "47uF" H 7050 3675 50  0000 L CNN
 F 2 "" H 7000 3775 60  0000 C CNN
 F 3 "" H 7000 3775 60  0000 C CNN
 	1    7000 3775
@@ -563,4 +563,6 @@ Text Notes 6325 5500 0    60   ~ 0
 R: 4470\nR: 28
 Text Notes 6725 5500 0    60   ~ 0
 => V_Out = 5V\n=> V_Out = 22V
+Text Notes 7525 4150 0    79   ~ 0
+i2c configuration:\n0101100 R/W\nRead: 0x5F\nWrite: 0x5E
 $EndSCHEMATC

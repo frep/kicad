@@ -276,6 +276,11 @@ D schottky diode
 K DEV DIODE
 $ENDCMP
 #
+$CMP DPST
+D Interrupteur double
+K switch
+$ENDCMP
+#
 $CMP FT232RL
 D USB to serial interface
 K USB
@@ -339,6 +344,11 @@ D Linear voltage regulator 3A
 F doc/LT3083.pdf
 $ENDCMP
 #
+$CMP MAX4080T
+D current sense 76V high-side with voltage output
+F doc/MAX4080.pdf
+$ENDCMP
+#
 $CMP MC14551
 D Quad 2-Channel Analog Multiplexer/Demultiplexer
 F doc/MC14551B.pdf
@@ -365,6 +375,11 @@ D spi gpio expander (MCP23S17)
 F doc/MCP23S17.pdf
 $ENDCMP
 #
+$CMP MCP3204-CI/P
+D spi 4-channel 12-bit adc
+F doc/MCP3204-CIP.pdf
+$ENDCMP
+#
 $CMP MCP4017
 D I2C 7-bit digital POT
 F doc/mcp4017.pdf
@@ -373,6 +388,11 @@ $ENDCMP
 $CMP MCP4716
 D i2c 10bit DAC
 F doc/MCP4716.pdf
+$ENDCMP
+#
+$CMP MCP4922-E/P
+D spi 12-bit dual output dac
+F doc/MCP4922-EP.pdf
 $ENDCMP
 #
 $CMP MCP73833
