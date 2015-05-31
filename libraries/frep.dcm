@@ -79,6 +79,11 @@ K AVR 8bit Microcontroller MegaAVR PicoPower
 F http://www.atmel.com/dyn/resources/prod_documents/doc8271.pdf
 $ENDCMP
 #
+$CMP BH_2xAA
+D batterie holder 2 AA
+F doc/BH2AAPC-4.pdf
+$ENDCMP
+#
 $CMP C
 D capacitor non-polarized
 $ENDCMP
@@ -318,6 +323,17 @@ $CMP JUMPER3
 D jumperswitch
 $ENDCMP
 #
+$CMP Joystick
+D Joystick 2 axis with pushbutton
+K JOYSTICK
+$ENDCMP
+#
+$CMP LDR
+D Light Dependent Resistor
+K LDR
+F doc/LDR.pdf
+$ENDCMP
+#
 $CMP LED
 D led
 K LED
@@ -358,6 +374,12 @@ $CMP MCP1700
 D LDO VReg +3.3V
 K POWER REGULATOR
 F doc/MCP1700.pdf
+$ENDCMP
+#
+$CMP MCP1702
+D LDO VReg +5V
+K POWER REGULATOR
+F doc/MCP1702.pdf
 $ENDCMP
 #
 $CMP MCP23008
@@ -409,6 +431,12 @@ $CMP MOSFET-P
 D p channel mosfet transistor
 $ENDCMP
 #
+$CMP Neopixel
+D NEOPIXEL: chainable rgb led
+K RGB LED
+F doc/WS2812.pdf
+$ENDCMP
+#
 $CMP OLED-1602
 D oled char display 16x2
 $ENDCMP
@@ -454,6 +482,12 @@ $ENDCMP
 $CMP THYRISTOR
 D thyristor
 K DEV DIODE
+$ENDCMP
+#
+$CMP TMP36
+D TMP36: linear temperature sensor
+K Temperature sensor
+F doc/TMP35_36_37.pdf
 $ENDCMP
 #
 $CMP USB-A-stacked
