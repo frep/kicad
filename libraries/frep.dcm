@@ -84,6 +84,11 @@ D batterie holder 2 AA
 F doc/BH2AAPC-4.pdf
 $ENDCMP
 #
+$CMP BLE_Friend
+D Bluefruit: BLE UART Friend
+K Adafruit Bluefruit LE UART
+$ENDCMP
+#
 $CMP C
 D capacitor non-polarized
 $ENDCMP
@@ -350,6 +355,12 @@ K REGUL POWER  SOT23-5
 F doc/LP2985.pdf
 $ENDCMP
 #
+$CMP LSM9DS0
+D LSM9DS0: Accelerometer + Gyro + Magnetometer 9DOF
+K LSM9DS0 Accelerometer Gyro Magnetometer
+F doc/adafruit-lsm9ds0-breakout.pdf
+$ENDCMP
+#
 $CMP LT3080
 D Linear voltage regulator 1A
 F doc/LT3080.pdf
@@ -505,6 +516,11 @@ $CMP USB-MINI-B-Vert
 D usb mini connector vertical
 K CONN
 F doc/USB_mini_vertical.pdf
+$ENDCMP
+#
+$CMP WIFI_CC3000
+D Adafruit CC3000 Wifi
+K Adafruit CC3000 WIFI
 $ENDCMP
 #
 $CMP ZENER

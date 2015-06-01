@@ -241,7 +241,7 @@ F 3 "" H 8150 3800 60  0000 C CNN
 	1    8150 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 8550 3100 1    47   Output ~ 0
+Text GLabel 8550 3300 1    47   Output ~ 0
 VCC_3V3
 $Comp
 L C C?
@@ -413,7 +413,7 @@ Wire Wire Line
 Wire Wire Line
 	2700 3800 2700 4250
 Wire Wire Line
-	5000 2750 7900 2750
+	5000 2750 9900 2750
 Connection ~ 5600 2750
 Wire Wire Line
 	5400 3400 7050 3400
@@ -438,17 +438,15 @@ Wire Wire Line
 Connection ~ 7350 3750
 Wire Wire Line
 	5000 2750 5000 3100
-Text HLabel 7900 2750 2    47   Output ~ 0
+Text HLabel 9900 2750 2    47   Output ~ 0
 5V_Vcc
-Text HLabel 8700 3750 2    47   Output ~ 0
+Text HLabel 9900 3250 2    47   Output ~ 0
 3V3_Vcc
 Connection ~ 7750 2750
 Wire Wire Line
 	8700 3750 8550 3750
 Wire Wire Line
 	7750 3750 7750 2750
-Wire Wire Line
-	8550 3750 8550 3100
 $Comp
 L SWITCH-SPSTPTH2 S?
 U 1 1 556AF2D0
@@ -481,7 +479,7 @@ L LED D?
 U 1 1 556AF704
 P 3250 5250
 F 0 "D?" H 3100 5350 50  0000 C CNN
-F 1 "LED" H 3325 5350 50  0000 C CNN
+F 1 "V_BAT" H 3325 5350 50  0000 C CNN
 F 2 "" H 3250 5250 60  0000 C CNN
 F 3 "" H 3250 5250 60  0000 C CNN
 	1    3250 5250
@@ -499,4 +497,36 @@ F 3 "" H 3250 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 3250 4550
+$Comp
+L ISL21070 U?
+U 1 1 556B667E
+P 9225 3825
+F 0 "U?" H 9225 4125 60  0000 C CNN
+F 1 "ISL21070" H 9225 4025 60  0000 C CNN
+F 2 "" H 9225 3725 60  0000 C CNN
+F 3 "" H 9225 3725 60  0000 C CNN
+	1    9225 3825
+	1    0    0    -1  
+$EndComp
+Text HLabel 9900 3750 2    47   Output ~ 0
+2V_Vcc
+$Comp
+L GND #PWR?
+U 1 1 556B66A2
+P 9225 4300
+F 0 "#PWR?" H 9225 4300 30  0001 C CNN
+F 1 "GND" H 9225 4230 30  0001 C CNN
+F 2 "" H 9225 4300 60  0000 C CNN
+F 3 "" H 9225 4300 60  0000 C CNN
+	1    9225 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 3750 8550 3300
+Wire Wire Line
+	9900 3250 8700 3250
+Wire Wire Line
+	8700 3250 8700 3750
+Wire Wire Line
+	9900 3750 9750 3750
 $EndSCHEMATC
