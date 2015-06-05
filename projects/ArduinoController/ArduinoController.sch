@@ -36,14 +36,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 3
-Title ""
-Date ""
-Rev ""
+Title "Arduino Esplora Netstal Clone"
+Date "Dienstag, 02. Juni 2015"
+Rev "01"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "  - possible to power with 4 AA-batteries"
+Comment2 "  - grove compatible i2c - connector"
+Comment3 "  - compatible with many Adafruit breakout boards"
+Comment4 "Arduino Esplora clone"
 $EndDescr
 $Sheet
 S 6325 2850 1500 1250
