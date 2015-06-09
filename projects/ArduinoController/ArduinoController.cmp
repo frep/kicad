@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Sonntag, 07. Juni 2015 19:07:55
+Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Dienstag, 09. Juni 2015 21:10:39
 
 BeginCmp
 TimeStamp = /5569568A/556EA7FB;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /5569563E/5571909F;
 Reference = BLE1;
 ValeurCmp = BLE_Friend;
-IdModule  = ;
+IdModule  = frep:Pin_Header_Straight_1x08;
 EndCmp
 
 BeginCmp
@@ -127,73 +127,80 @@ IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569568A/55699766;
+TimeStamp = /5569563E/556B3C92;
 Reference = C16;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569568A/5569977A;
-Reference = C17;
-ValeurCmp = 4.7uF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569568A/5569F472;
-Reference = C18;
-ValeurCmp = 100nF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569568A/5569F290;
-Reference = C19;
-ValeurCmp = 1uF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569568A/5569F285;
-Reference = C20;
-ValeurCmp = 1uF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569568A/5569FAC7;
-Reference = C21;
-ValeurCmp = 1uF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569568A/5569FAD2;
-Reference = C22;
-ValeurCmp = 1uF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569563E/556B3C92;
-Reference = C23;
-ValeurCmp = 100nF;
-IdModule  = frep:C0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5569563E/556B3C9D;
-Reference = C24;
+Reference = C17;
 ValeurCmp = 10uF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/556B8AA1;
-Reference = C25;
+Reference = C18;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/55699766;
+Reference = C19;
+ValeurCmp = 100nF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569977A;
+Reference = C20;
+ValeurCmp = 4.7uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569F472;
+Reference = C21;
+ValeurCmp = 100nF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569F290;
+Reference = C22;
+ValeurCmp = 10uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569F285;
+Reference = C23;
+ValeurCmp = 10uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569FAC7;
+Reference = C24;
+ValeurCmp = 1uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569FAD2;
+Reference = C25;
+ValeurCmp = 1uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5575E1C3;
+Reference = CN1;
+ValeurCmp = DCBARREL;
+IdModule  = frep:DCJACK_2MM_PTH;
 EndCmp
 
 BeginCmp
@@ -207,7 +214,7 @@ BeginCmp
 TimeStamp = /5569563E/556985B8;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = ;
+IdModule  = frep:Diode-MiniMELF_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -242,7 +249,7 @@ BeginCmp
 TimeStamp = /5569563E/556B0555;
 Reference = IC1;
 ValeurCmp = TMP36;
-IdModule  = ;
+IdModule  = frep:SOT23-5L;
 EndCmp
 
 BeginCmp
@@ -256,7 +263,7 @@ BeginCmp
 TimeStamp = /5569563E/55719F6F;
 Reference = J1;
 ValeurCmp = Joystick;
-IdModule  = ;
+IdModule  = frep:Joystick;
 EndCmp
 
 BeginCmp
@@ -277,7 +284,7 @@ BeginCmp
 TimeStamp = /5569563E/556B219B;
 Reference = LSM1;
 ValeurCmp = LSM9DS0;
-IdModule  = ;
+IdModule  = frep:lsm9ds0;
 EndCmp
 
 BeginCmp
@@ -326,7 +333,7 @@ BeginCmp
 TimeStamp = /5569563E/556993D9;
 Reference = P3;
 ValeurCmp = CONN_3X2;
-IdModule  = ;
+IdModule  = frep:Pin_Proto_Straight_2x03;
 EndCmp
 
 BeginCmp
@@ -337,17 +344,24 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B4F2B;
+TimeStamp = /5569563E/5575D7F0;
 Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = frep:Pin_Proto_Straight_1x01;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/556B4F2B;
+Reference = P6;
 ValeurCmp = CONN_2;
-IdModule  = ;
+IdModule  = frep:Pin_Proto_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/556CA4DE;
-Reference = P6;
+Reference = P7;
 ValeurCmp = CONN_5;
-IdModule  = ;
+IdModule  = frep:Pin_Header_Proto_1x05;
 EndCmp
 
 BeginCmp
@@ -589,9 +603,9 @@ IdModule  = frep:MSOP10;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569568A/556E9FC1;
+TimeStamp = /5569568A/5575DD78;
 Reference = U4;
-ValeurCmp = MCP1702;
+ValeurCmp = NCP1117;
 IdModule  = ;
 EndCmp
 
@@ -610,17 +624,17 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556E9586;
+TimeStamp = /5569563E/5575FBE6;
 Reference = WIFI1;
 ValeurCmp = WIFI_CC3000;
-IdModule  = ;
+IdModule  = frep:Pin_Header_Straight_1x09;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/55698884;
 Reference = X1;
 ValeurCmp = 16MHz;
-IdModule  = ;
+IdModule  = frep:HC49UP;
 EndCmp
 
 EndListe

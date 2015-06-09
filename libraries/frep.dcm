@@ -279,6 +279,7 @@ $ENDCMP
 $CMP DIODE
 D diode
 K DEV DIODE
+F doc/DL4148(MiniMelf).pdf
 $ENDCMP
 #
 $CMP DIODESCH
@@ -440,6 +441,12 @@ $ENDCMP
 #
 $CMP MOSFET-P
 D p channel mosfet transistor
+$ENDCMP
+#
+$CMP NCP1117
+D LDO VReg +5V
+K POWER REGULATOR
+F doc/NCP1117-D.PDF
 $ENDCMP
 #
 $CMP Neopixel
