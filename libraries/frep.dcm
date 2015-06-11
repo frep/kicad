@@ -514,6 +514,11 @@ K conn
 F doc/USB_A_Conn_stacked.pdf
 $ENDCMP
 #
+$CMP USB-MICRO
+D usb mini connector
+K CONN
+$ENDCMP
+#
 $CMP USB-MINI-B
 D usb mini connector
 K CONN

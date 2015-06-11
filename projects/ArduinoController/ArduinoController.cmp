@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Dienstag, 09. Juni 2015 21:10:39
+Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Donnerstag, 11. Juni 2015 21:37:06
 
 BeginCmp
 TimeStamp = /5569568A/556EA7FB;
@@ -18,7 +18,7 @@ BeginCmp
 TimeStamp = /5569563E/5571909F;
 Reference = BLE1;
 ValeurCmp = BLE_Friend;
-IdModule  = frep:Pin_Header_Straight_1x08;
+IdModule  = frep:bluetooth_friend;
 EndCmp
 
 BeginCmp
@@ -204,10 +204,10 @@ IdModule  = frep:DCJACK_2MM_PTH;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569568A/55699629;
+TimeStamp = /5569568A/5577520F;
 Reference = CON1;
 ValeurCmp = USB-MICRO;
-IdModule  = ;
+IdModule  = frep:USB_Micro;
 EndCmp
 
 BeginCmp
@@ -257,6 +257,13 @@ TimeStamp = /5569568A/5569D39F;
 Reference = IC2;
 ValeurCmp = OPAMP-DUALU;
 IdModule  = frep:SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569568A/5569D3B3;
+Reference = IC3;
+ValeurCmp = OPAMP-LM358;
+IdModule  = SparkFun-SO08;
 EndCmp
 
 BeginCmp
@@ -319,14 +326,14 @@ BeginCmp
 TimeStamp = /5569563E/556E066F;
 Reference = P1;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = frep:grove_con_angled;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/556A26A3;
 Reference = P2;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = frep:Pin_Proto_Straight_1x04;
 EndCmp
 
 BeginCmp
@@ -340,7 +347,7 @@ BeginCmp
 TimeStamp = /5569563E/556A26B5;
 Reference = P4;
 ValeurCmp = CONN_4;
-IdModule  = ;
+IdModule  = frep:Pin_Proto_Straight_1x04;
 EndCmp
 
 BeginCmp
@@ -627,7 +634,7 @@ BeginCmp
 TimeStamp = /5569563E/5575FBE6;
 Reference = WIFI1;
 ValeurCmp = WIFI_CC3000;
-IdModule  = frep:Pin_Header_Straight_1x09;
+IdModule  = frep:wifi_board;
 EndCmp
 
 BeginCmp
