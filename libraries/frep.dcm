@@ -473,6 +473,11 @@ D PWM STEP-UP DC-DC CONVERTER
 F doc/PAM242x.pdf
 $ENDCMP
 #
+$CMP PCF8574
+D I2C GPIO expander
+F doc/PCF8574.pdf
+$ENDCMP
+#
 $CMP R
 D resistor
 K R DEV
@@ -486,6 +491,11 @@ $ENDCMP
 $CMP RotaryEncoder
 D Rotary Encoder
 F doc/BournsRotary.pdf
+$ENDCMP
+#
+$CMP SPDT
+D Switch SPDT
+K SWITCH SPDT
 $ENDCMP
 #
 $CMP TAC_SWITCH

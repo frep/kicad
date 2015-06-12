@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Donnerstag, 11. Juni 2015 21:37:06
+Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Freitag, 12. Juni 2015 22:28:47
 
 BeginCmp
 TimeStamp = /5569568A/556EA7FB;
@@ -78,72 +78,72 @@ IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556ACFA8;
+TimeStamp = /5569563E/557B5143;
 Reference = C9;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556AD356;
+TimeStamp = /5569563E/557B5149;
 Reference = C10;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B0935;
+TimeStamp = /5569563E/556ACFA8;
 Reference = C11;
-ValeurCmp = 10nF;
+ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B0576;
+TimeStamp = /5569563E/556AD356;
 Reference = C12;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/55698AF5;
+TimeStamp = /5569563E/557B512C;
 Reference = C13;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/55698B07;
+TimeStamp = /5569563E/557B514F;
 Reference = C14;
-ValeurCmp = 1uF;
+ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B3C7C;
+TimeStamp = /5569563E/556B0935;
 Reference = C15;
-ValeurCmp = 1uF;
+ValeurCmp = 10nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B3C92;
+TimeStamp = /5569563E/556B0576;
 Reference = C16;
 ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B3C9D;
+TimeStamp = /5569563E/55698AF5;
 Reference = C17;
-ValeurCmp = 10uF;
+ValeurCmp = 100nF;
 IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B8AA1;
+TimeStamp = /5569563E/55698B07;
 Reference = C18;
-ValeurCmp = 100nF;
+ValeurCmp = 1uF;
 IdModule  = frep:C0805;
 EndCmp
 
@@ -197,6 +197,34 @@ IdModule  = frep:C0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5569563E/556B3C7C;
+Reference = C26;
+ValeurCmp = 1uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/556B3C92;
+Reference = C27;
+ValeurCmp = 100nF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/556B3C9D;
+Reference = C28;
+ValeurCmp = 10uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/556B8AA1;
+Reference = C29;
+ValeurCmp = 100nF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5569568A/5575E1C3;
 Reference = CN1;
 ValeurCmp = DCBARREL;
@@ -239,6 +267,20 @@ IdModule  = frep:LED-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5569563E/557B301A;
+Reference = D5;
+ValeurCmp = TX;
+IdModule  = frep:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B3025;
+Reference = D6;
+ValeurCmp = RX;
+IdModule  = frep:LED-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5569568A/55699752;
 Reference = F1;
 ValeurCmp = FUSE;
@@ -253,17 +295,10 @@ IdModule  = frep:SOT23-5L;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569568A/5569D39F;
+TimeStamp = /5569568A/557B4B89;
 Reference = IC2;
-ValeurCmp = OPAMP-DUALU;
+ValeurCmp = LM358;
 IdModule  = frep:SOIC8;
-EndCmp
-
-BeginCmp
-TimeStamp = /5569568A/5569D3B3;
-Reference = IC3;
-ValeurCmp = OPAMP-LM358;
-IdModule  = SparkFun-SO08;
 EndCmp
 
 BeginCmp
@@ -284,7 +319,7 @@ BeginCmp
 TimeStamp = /5569563E/556B18C1;
 Reference = LDR1;
 ValeurCmp = LDR;
-IdModule  = ;
+IdModule  = frep:LDR;
 EndCmp
 
 BeginCmp
@@ -298,28 +333,56 @@ BeginCmp
 TimeStamp = /5569563E/55719636;
 Reference = N1;
 ValeurCmp = Neopixel;
-IdModule  = ;
+IdModule  = frep:Neopixel;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/5571964A;
 Reference = N2;
 ValeurCmp = Neopixel;
-IdModule  = ;
+IdModule  = frep:Neopixel;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B51B1;
+Reference = N3;
+ValeurCmp = Neopixel;
+IdModule  = frep:Neopixel;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B51B7;
+Reference = N4;
+ValeurCmp = Neopixel;
+IdModule  = frep:Neopixel;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/55719622;
-Reference = N3;
+Reference = N5;
 ValeurCmp = Neopixel;
-IdModule  = ;
+IdModule  = frep:Neopixel;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/5571965E;
-Reference = N4;
+Reference = N6;
 ValeurCmp = Neopixel;
-IdModule  = ;
+IdModule  = frep:Neopixel;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B51AB;
+Reference = N7;
+ValeurCmp = Neopixel;
+IdModule  = frep:Neopixel;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B51BD;
+Reference = N8;
+ValeurCmp = Neopixel;
+IdModule  = frep:Neopixel;
 EndCmp
 
 BeginCmp
@@ -344,29 +407,43 @@ IdModule  = frep:Pin_Proto_Straight_2x03;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556A26B5;
+TimeStamp = /5569563E/557B556C;
 Reference = P4;
+ValeurCmp = CONN_4;
+IdModule  = frep:grove_con_angled;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B5577;
+Reference = P5;
+ValeurCmp = CONN_4;
+IdModule  = frep:grove_con_angled;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/556A26B5;
+Reference = P6;
 ValeurCmp = CONN_4;
 IdModule  = frep:Pin_Proto_Straight_1x04;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/5575D7F0;
-Reference = P5;
+Reference = P7;
 ValeurCmp = CONN_1;
 IdModule  = frep:Pin_Proto_Straight_1x01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/556B4F2B;
-Reference = P6;
+Reference = P8;
 ValeurCmp = CONN_2;
 IdModule  = frep:Pin_Proto_Straight_1x02;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569563E/556CA4DE;
-Reference = P7;
+Reference = P9;
 ValeurCmp = CONN_5;
 IdModule  = frep:Pin_Header_Proto_1x05;
 EndCmp
@@ -400,28 +477,28 @@ IdModule  = frep:SOT23;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556A2875;
+TimeStamp = /5569563E/556B8350;
 Reference = R1;
 ValeurCmp = 10K;
 IdModule  = frep:R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556A2880;
+TimeStamp = /5569563E/556B8345;
 Reference = R2;
 ValeurCmp = 10K;
 IdModule  = frep:R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B8345;
+TimeStamp = /5569563E/556A2875;
 Reference = R3;
 ValeurCmp = 10K;
 IdModule  = frep:R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B8350;
+TimeStamp = /5569563E/556A2880;
 Reference = R4;
 ValeurCmp = 10K;
 IdModule  = frep:R0805;
@@ -526,22 +603,36 @@ IdModule  = frep:R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556991E6;
+TimeStamp = /5569563E/556B18D3;
 Reference = R19;
-ValeurCmp = 220;
+ValeurCmp = 10K;
 IdModule  = frep:R0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B18D3;
+TimeStamp = /5569563E/556991E6;
 Reference = R20;
-ValeurCmp = 10K;
+ValeurCmp = 220;
 IdModule  = frep:R0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569568A/556AF6F0;
 Reference = R21;
+ValeurCmp = 220;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B303A;
+Reference = R22;
+ValeurCmp = 220;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/557B3045;
+Reference = R23;
 ValeurCmp = 220;
 IdModule  = frep:R0805;
 EndCmp
@@ -582,10 +673,10 @@ IdModule  = frep:TACTILE-PTH;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569568A/556AF2D0;
+TimeStamp = /5569568A/557B1EC1;
 Reference = S6;
-ValeurCmp = SWITCH-SPSTPTH2;
-IdModule  = ;
+ValeurCmp = SPDT;
+IdModule  = frep:Switch_SPDT;
 EndCmp
 
 BeginCmp
@@ -596,38 +687,45 @@ IdModule  = frep:TQFP44;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/556B61B2;
+TimeStamp = /5569563E/55718B25;
 Reference = U2;
-ValeurCmp = MCP4716;
-IdModule  = ;
+ValeurCmp = AD5274;
+IdModule  = frep:MSOP10;
 EndCmp
 
 BeginCmp
-TimeStamp = /5569563E/55718B25;
+TimeStamp = /5569563E/557B3FDD;
 Reference = U3;
-ValeurCmp = AD5274;
-IdModule  = frep:MSOP10;
+ValeurCmp = PCF8574;
+IdModule  = frep:SO16;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569568A/5575DD78;
 Reference = U4;
 ValeurCmp = NCP1117;
-IdModule  = ;
+IdModule  = frep:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569568A/5569E1D5;
 Reference = U5;
 ValeurCmp = MCP1700;
-IdModule  = ;
+IdModule  = frep:SOT23;
 EndCmp
 
 BeginCmp
 TimeStamp = /5569568A/556EAD78;
 Reference = U6;
 ValeurCmp = ISL21070;
-IdModule  = ;
+IdModule  = frep:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /5569563E/556B61B2;
+Reference = U7;
+ValeurCmp = MCP4716;
+IdModule  = frep:SOT23-6;
 EndCmp
 
 BeginCmp
