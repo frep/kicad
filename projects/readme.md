@@ -14,4 +14,7 @@ Arduino Controller
 ------------------
 An Arduino-clone of the Arduino Esplora. I removed the things I didn't like and added some other features instead. 
 
-
+PowerBox
+--------
+LiPo-cell in a box. Based on the Adafruit PowerBoost 1000 Charger. Charge Lipo-cell, power usb-devices from Lipo or use lipo as USP.
+Measure Voltage and current drawn by the load. Autoshutdown, when critical lipo-voltage is reached.
