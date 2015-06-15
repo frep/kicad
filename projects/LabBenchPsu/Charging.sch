@@ -685,8 +685,6 @@ F 3 "" H 3375 6375 30  0000 C CNN
 $EndComp
 Wire Wire Line
 	3125 4875 3125 6375
-Wire Wire Line
-	4075 4875 4075 6300
 Text HLabel 5700 5550 2    60   Input ~ 0
 3V3_reg
 $Comp
@@ -712,16 +710,8 @@ F 3 "" H 5025 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3625 6375 4375 6375
-Wire Wire Line
-	4075 6300 4375 6300
-Wire Wire Line
-	4225 5550 5700 5550
+	4150 5550 5700 5550
 Connection ~ 5275 5550
-Wire Wire Line
-	4225 5550 4225 6225
-Wire Wire Line
-	4225 6225 4375 6225
 Connection ~ 5025 5550
 $Comp
 L GND #PWR?
@@ -866,4 +856,12 @@ i2c configuration:\n0101100 R/W\nRead: 0x59\nWrite: 0x58
 Wire Wire Line
 	5550 6225 5550 5550
 Connection ~ 5550 5550
+Wire Wire Line
+	3625 6375 4150 6375
+Wire Wire Line
+	4075 4875 4075 6275
+Wire Wire Line
+	4075 6275 4150 6275
+Wire Wire Line
+	4150 5550 4150 6175
 $EndSCHEMATC
