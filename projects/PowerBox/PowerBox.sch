@@ -1,0 +1,416 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:frep
+LIBS:PowerBox-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 4_x_7Segment SEG?
+U 1 1 557F8D12
+P 2150 1700
+F 0 "SEG?" V 1525 1675 60  0000 C CNN
+F 1 "4_x_7Segment" V 2775 1700 60  0000 C CNN
+F 2 "" H 2050 1700 60  0000 C CNN
+F 3 "" H 2050 1700 60  0000 C CNN
+	1    2150 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4_x_7Segment SEG?
+U 1 1 557F8D24
+P 3500 1700
+F 0 "SEG?" V 2875 1675 60  0000 C CNN
+F 1 "4_x_7Segment" V 4125 1700 60  0000 C CNN
+F 2 "" H 3400 1700 60  0000 C CNN
+F 3 "" H 3400 1700 60  0000 C CNN
+	1    3500 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L MAX7219 U?
+U 1 1 557F8D31
+P 5850 1850
+F 0 "U?" H 5850 1175 60  0000 C CNN
+F 1 "MAX7219" H 5850 2525 60  0000 C CNN
+F 2 "" H 5850 1850 60  0000 C CNN
+F 3 "" H 5850 1850 60  0000 C CNN
+	1    5850 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 557FA244
+P 2350 4150
+F 0 "R?" V 2430 4150 40  0000 C CNN
+F 1 "0.1" V 2357 4151 40  0000 C CNN
+F 2 "" V 2280 4150 30  0000 C CNN
+F 3 "" H 2350 4150 30  0000 C CNN
+	1    2350 4150
+	0    -1   1    0   
+$EndComp
+Text Notes 2175 4450 0    60   ~ 0
+R shunt\n1% 0.1W+
+$Comp
+L INA169 U?
+U 1 1 557FA622
+P 2350 3700
+F 0 "U?" H 2350 3950 60  0000 C CNN
+F 1 "INA169" H 2350 3450 60  0000 C CNN
+F 2 "" H 2375 3475 60  0000 C CNN
+F 3 "" H 2375 3475 60  0000 C CNN
+	1    2350 3700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 557FA6EC
+P 3250 3850
+F 0 "R?" V 3330 3850 40  0000 C CNN
+F 1 "10K 1%" V 3257 3851 40  0000 C CNN
+F 2 "" V 3180 3850 30  0000 C CNN
+F 3 "" H 3250 3850 30  0000 C CNN
+	1    3250 3850
+	1    0    0    1   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 557FA6FE
+P 3250 4100
+F 0 "#PWR?" H 3250 4100 30  0001 C CNN
+F 1 "GND" H 3250 4030 30  0001 C CNN
+F 2 "" H 3250 4100 60  0000 C CNN
+F 3 "" H 3250 4100 60  0000 C CNN
+	1    3250 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 557FA710
+P 2950 3700
+F 0 "#PWR?" H 2950 3700 30  0001 C CNN
+F 1 "GND" H 2950 3630 30  0001 C CNN
+F 2 "" H 2950 3700 60  0000 C CNN
+F 3 "" H 2950 3700 60  0000 C CNN
+	1    2950 3700
+	0    -1   1    0   
+$EndComp
+Text GLabel 5250 1300 0    47   Input ~ 0
+DIN
+NoConn ~ 6450 1300
+Text GLabel 5250 1400 0    47   Output ~ 0
+D0
+Text GLabel 5250 1500 0    47   Output ~ 0
+D1
+Text GLabel 5250 1600 0    47   Output ~ 0
+D2
+Text GLabel 5250 1700 0    47   Output ~ 0
+D3
+Text GLabel 5250 1800 0    47   Output ~ 0
+D4
+Text GLabel 5250 1900 0    47   Output ~ 0
+D5
+Text GLabel 5250 2000 0    47   Output ~ 0
+D6
+Text GLabel 5250 2100 0    47   Output ~ 0
+D7
+$Comp
+L GND #PWR?
+U 1 1 557FAA28
+P 5250 2300
+F 0 "#PWR?" H 5250 2300 30  0001 C CNN
+F 1 "GND" H 5250 2230 30  0001 C CNN
+F 2 "" H 5250 2300 60  0000 C CNN
+F 3 "" H 5250 2300 60  0000 C CNN
+	1    5250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 557FAA3D
+P 5250 2400
+F 0 "#PWR?" H 5250 2400 30  0001 C CNN
+F 1 "GND" H 5250 2330 30  0001 C CNN
+F 2 "" H 5250 2400 60  0000 C CNN
+F 3 "" H 5250 2400 60  0000 C CNN
+	1    5250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 557FAA48
+P 5850 2650
+F 0 "R?" V 5930 2650 40  0000 C CNN
+F 1 "12K" V 5857 2651 40  0000 C CNN
+F 2 "" V 5780 2650 30  0000 C CNN
+F 3 "" H 5850 2650 30  0000 C CNN
+	1    5850 2650
+	0    1    1    0   
+$EndComp
+Text GLabel 6450 2400 2    47   Input ~ 0
+CLK
+Text GLabel 6450 2300 2    47   Input ~ 0
+LOAD
+$Comp
+L C C?
+U 1 1 557FAA86
+P 4900 2400
+F 0 "C?" H 4900 2500 40  0000 L CNN
+F 1 "100nF" H 4906 2315 40  0000 L CNN
+F 2 "" H 4938 2250 30  0000 C CNN
+F 3 "" H 4900 2400 60  0000 C CNN
+	1    4900 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP1 C?
+U 1 1 557FAA9A
+P 4600 2400
+F 0 "C?" H 4650 2500 50  0000 L CNN
+F 1 "10uF" H 4650 2300 50  0000 L CNN
+F 2 "" H 4600 2400 60  0000 C CNN
+F 3 "" H 4600 2400 60  0000 C CNN
+	1    4600 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 557FAACA
+P 4900 2600
+F 0 "#PWR?" H 4900 2600 30  0001 C CNN
+F 1 "GND" H 4900 2530 30  0001 C CNN
+F 2 "" H 4900 2600 60  0000 C CNN
+F 3 "" H 4900 2600 60  0000 C CNN
+	1    4900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 557FAAD5
+P 4600 2600
+F 0 "#PWR?" H 4600 2600 30  0001 C CNN
+F 1 "GND" H 4600 2530 30  0001 C CNN
+F 2 "" H 4600 2600 60  0000 C CNN
+F 3 "" H 4600 2600 60  0000 C CNN
+	1    4600 2600
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 2100 2    47   Output ~ 0
+SEGG
+Text GLabel 6450 2000 2    47   Output ~ 0
+SEGF
+Text GLabel 6450 1900 2    47   Output ~ 0
+SEGE
+Text GLabel 6450 1800 2    47   Output ~ 0
+SEGD
+Text GLabel 6450 1700 2    47   Output ~ 0
+SEGC
+Text GLabel 6450 1600 2    47   Output ~ 0
+SEGB
+Text GLabel 6450 1500 2    47   Output ~ 0
+SEGA
+Text GLabel 6450 1400 2    47   Output ~ 0
+SEGDP
+Text GLabel 3100 1050 1    47   Input ~ 0
+D0
+Text GLabel 3350 1050 1    47   Input ~ 0
+D1
+Text GLabel 3650 1050 1    47   Input ~ 0
+D2
+Text GLabel 3900 1050 1    47   Input ~ 0
+D3
+Text GLabel 1750 1050 1    47   Input ~ 0
+D4
+Text GLabel 2000 1050 1    47   Input ~ 0
+D5
+Text GLabel 2300 1050 1    47   Input ~ 0
+D6
+Text GLabel 2550 1050 1    47   Input ~ 0
+D7
+Text GLabel 3750 2350 3    47   Input ~ 0
+SEGG
+Text GLabel 3650 2350 3    47   Input ~ 0
+SEGF
+Text GLabel 3550 2350 3    47   Input ~ 0
+SEGE
+Text GLabel 3450 2350 3    47   Input ~ 0
+SEGD
+Text GLabel 3350 2350 3    47   Input ~ 0
+SEGC
+Text GLabel 3250 2350 3    47   Input ~ 0
+SEGB
+Text GLabel 3150 2350 3    47   Input ~ 0
+SEGA
+Text GLabel 3850 2350 3    47   Input ~ 0
+SEGDP
+Text GLabel 2400 2350 3    47   Input ~ 0
+SEGG
+Text GLabel 2300 2350 3    47   Input ~ 0
+SEGF
+Text GLabel 2200 2350 3    47   Input ~ 0
+SEGE
+Text GLabel 2100 2350 3    47   Input ~ 0
+SEGD
+Text GLabel 2000 2350 3    47   Input ~ 0
+SEGC
+Text GLabel 1900 2350 3    47   Input ~ 0
+SEGB
+Text GLabel 1800 2350 3    47   Input ~ 0
+SEGA
+Text GLabel 2500 2350 3    47   Input ~ 0
+SEGDP
+$Comp
+L ATTINY85-S IC?
+U 1 1 55806C90
+P 6400 3650
+F 0 "IC?" H 5350 4050 60  0000 C CNN
+F 1 "ATTINY85-S" H 7250 3250 60  0000 C CNN
+F 2 "SO8-200" H 5500 3250 60  0001 C CNN
+F 3 "" H 6400 3650 60  0000 C CNN
+	1    6400 3650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5050 3800 0    47   Input ~ 0
+LOAD
+Text GLabel 5050 3700 0    47   Input ~ 0
+CLK
+Text GLabel 5050 3400 0    47   Input ~ 0
+DIN
+Wire Wire Line
+	1750 3800 1750 4150
+Wire Wire Line
+	1750 4150 2100 4150
+Wire Wire Line
+	2950 3800 2950 4150
+Wire Wire Line
+	2950 4150 2600 4150
+Wire Wire Line
+	2950 3600 5050 3600
+Connection ~ 3250 3600
+Wire Wire Line
+	6450 2200 6750 2200
+Wire Wire Line
+	6750 2200 6750 2650
+Wire Wire Line
+	6750 2650 6100 2650
+Wire Wire Line
+	4400 2200 5250 2200
+Wire Wire Line
+	5150 2200 5150 2650
+Wire Wire Line
+	5150 2650 5600 2650
+Connection ~ 5150 2200
+Connection ~ 4900 2200
+Connection ~ 4600 2200
+$Comp
+L TAC_SWITCH S?
+U 1 1 558071DB
+P 4200 3900
+F 0 "S?" H 4175 4100 50  0000 L BNN
+F 1 "RESET" H 4075 3700 50  0000 L BNN
+F 2 "TACTILE" H 4200 4050 50  0001 C CNN
+F 3 "" H 4200 3900 60  0000 C CNN
+	1    4200 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L TAC_SWITCH S?
+U 1 1 558071ED
+P 4200 3400
+F 0 "S?" H 4300 3500 50  0000 L BNN
+F 1 "SELECT" H 4100 3600 50  0000 L BNN
+F 2 "TACTILE" H 4200 3550 50  0001 C CNN
+F 3 "" H 4200 3400 60  0000 C CNN
+	1    4200 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55807293
+P 3900 3900
+F 0 "#PWR?" H 3900 3900 30  0001 C CNN
+F 1 "GND" H 3900 3830 30  0001 C CNN
+F 2 "" H 3900 3900 60  0000 C CNN
+F 3 "" H 3900 3900 60  0000 C CNN
+	1    3900 3900
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	5050 3500 4400 3500
+Wire Wire Line
+	4400 3500 4400 3400
+Wire Wire Line
+	4000 3400 4000 3500
+Wire Wire Line
+	4000 3500 3900 3500
+$Comp
+L GND #PWR?
+U 1 1 558079BA
+P 3900 3500
+F 0 "#PWR?" H 3900 3500 30  0001 C CNN
+F 1 "GND" H 3900 3430 30  0001 C CNN
+F 2 "" H 3900 3500 60  0000 C CNN
+F 3 "" H 3900 3500 60  0000 C CNN
+	1    3900 3500
+	0    1    -1   0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 55808163
+P 7750 3900
+F 0 "#PWR?" H 7750 3900 30  0001 C CNN
+F 1 "GND" H 7750 3830 30  0001 C CNN
+F 2 "" H 7750 3900 60  0000 C CNN
+F 3 "" H 7750 3900 60  0000 C CNN
+	1    7750 3900
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	4400 4000 4400 3900
+Wire Wire Line
+	4400 3900 5050 3900
+Wire Wire Line
+	4000 4000 4000 3900
+Wire Wire Line
+	4000 3900 3900 3900
+$EndSCHEMATC
