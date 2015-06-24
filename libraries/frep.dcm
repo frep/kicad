@@ -16,6 +16,10 @@ K 7 SEGMENTS
 F doc/LN3461AS2B.pdf
 $ENDCMP
 #
+$CMP 74HC595
+D 8bit shift register
+$ENDCMP
+#
 $CMP AD5274
 D i2c EPOT 20K 256 tabs
 F doc/AD5274.pdf
