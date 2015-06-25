@@ -1,0 +1,318 @@
+Cmp-Mod V01 Created by CvPcb (2014-02-26 BZR 4721)-product date = Donnerstag, 25. Juni 2015 21:35:56
+
+BeginCmp
+TimeStamp = /558C175F;
+Reference = C1;
+ValeurCmp = 1uF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558C177B;
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = frep:C0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55808442;
+Reference = CON1;
+ValeurCmp = USB-MICRO;
+IdModule  = frep:USB_Micro;
+EndCmp
+
+BeginCmp
+TimeStamp = /5581E5BD;
+Reference = CON2;
+ValeurCmp = USB-MICRO;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /55846747;
+Reference = D1;
+ValeurCmp = Low Battery;
+IdModule  = frep:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558470C5;
+Reference = D2;
+ValeurCmp = Power Load;
+IdModule  = frep:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5583A310;
+Reference = IC1;
+ValeurCmp = OPAMP-DUALU;
+IdModule  = frep:SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = /55806C90;
+Reference = IC2;
+ValeurCmp = ATTINY85-S;
+IdModule  = frep:SOIC8;
+EndCmp
+
+BeginCmp
+TimeStamp = /558A2FDA;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = frep:Pin_Proto_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = /55808F97;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = frep:JST-PH-2-THM-RA;
+EndCmp
+
+BeginCmp
+TimeStamp = /55808FA9;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = frep:JST-PH-2-THM;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833D68;
+Reference = P3;
+ValeurCmp = CONN_1;
+IdModule  = frep:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833D5D;
+Reference = P4;
+ValeurCmp = CONN_1;
+IdModule  = frep:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833D52;
+Reference = P5;
+ValeurCmp = CONN_1;
+IdModule  = frep:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833D36;
+Reference = P6;
+ValeurCmp = CONN_1;
+IdModule  = frep:MountingHole_3mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /5581D913;
+Reference = P7;
+ValeurCmp = CONN_3X2;
+IdModule  = frep:Pin_Proto_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /5584A04D;
+Reference = PB1;
+ValeurCmp = PowerBoost;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD420;
+Reference = R1;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD426;
+Reference = R2;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD42C;
+Reference = R3;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD432;
+Reference = R4;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55846585;
+Reference = R5;
+ValeurCmp = 330R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD3D1;
+Reference = R6;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD3FF;
+Reference = R7;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD414;
+Reference = R8;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AD41A;
+Reference = R9;
+ValeurCmp = 220R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55845A70;
+Reference = R10;
+ValeurCmp = 10K;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55845A8A;
+Reference = R11;
+ValeurCmp = 10K;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /558470BF;
+Reference = R12;
+ValeurCmp = 330R;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557FA6EC;
+Reference = R13;
+ValeurCmp = 24K 1%;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /557FA244;
+Reference = R14;
+ValeurCmp = 0.1;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5586A13E;
+Reference = R15;
+ValeurCmp = 300R 1%;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833794;
+Reference = R16;
+ValeurCmp = 49.9K 1%;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833774;
+Reference = R17;
+ValeurCmp = 78.7K 1%;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833755;
+Reference = R18;
+ValeurCmp = 43K 1%;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55833789;
+Reference = R19;
+ValeurCmp = 49.9K 1%;
+IdModule  = frep:R0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55808B94;
+Reference = S1;
+ValeurCmp = Lipo Select;
+IdModule  = frep:Switch_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5580977F;
+Reference = S2;
+ValeurCmp = Load on/off;
+IdModule  = frep:Switch_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /5580A99B;
+Reference = S3;
+ValeurCmp = Attiny on/off;
+IdModule  = frep:Switch_SPDT;
+EndCmp
+
+BeginCmp
+TimeStamp = /558071ED;
+Reference = S4;
+ValeurCmp = SELECT;
+IdModule  = frep:TACTILE-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /558071DB;
+Reference = S5;
+ValeurCmp = RESET;
+IdModule  = frep:TACTILE-PTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /557F8D24;
+Reference = SEG1;
+ValeurCmp = 4_x_7Segment;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AC7D4;
+Reference = U1;
+ValeurCmp = 74HC595;
+IdModule  = frep:SO16;
+EndCmp
+
+BeginCmp
+TimeStamp = /558AC8C6;
+Reference = U2;
+ValeurCmp = 74HC595;
+IdModule  = frep:SO16;
+EndCmp
+
+BeginCmp
+TimeStamp = /557FA622;
+Reference = U3;
+ValeurCmp = INA169;
+IdModule  = frep:SOT23-5L;
+EndCmp
+
+EndListe
