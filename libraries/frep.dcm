@@ -562,6 +562,11 @@ K Temperature sensor
 F doc/TMP35_36_37.pdf
 $ENDCMP
 #
+$CMP USB-A-Jack
+D usb mini connector
+K CONN
+$ENDCMP
+#
 $CMP USB-A-stacked
 D USB A connector stacked (2x)
 K conn

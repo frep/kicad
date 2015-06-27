@@ -1,6 +1,6 @@
-update=Mittwoch, 24. Juni 2015 16:34:22
+update=Samstag, 27. Juni 2015 22:41:37
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -47,15 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
 LibDir=../../libraries
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
 [eeschema/libraries]
 LibName1=power
 LibName2=device
