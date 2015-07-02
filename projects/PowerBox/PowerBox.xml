@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/frehnerp/Documents/kicad/projects/PowerBox/PowerBox.sch</source>
-    <date>Donnerstag, 02. Juli 2015 21:05:55</date>
+    <date>Donnerstag, 02. Juli 2015 21:52:49</date>
     <tool>Eeschema (2015-06-26 BZR 5832)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -131,7 +131,7 @@
       <tstamp>55833D68</tstamp>
     </comp>
     <comp ref="IC1">
-      <value>OPAMP-DUALU</value>
+      <value>LM358</value>
       <footprint>frep:SOIC8</footprint>
       <libsource lib="frep" part="OPAMP-DUALU"/>
       <sheetpath names="/" tstamps="/"/>
@@ -381,7 +381,7 @@
       <tstamp>5590BF18</tstamp>
     </comp>
     <comp ref="Q5">
-      <value>MOSFET-P</value>
+      <value>DMG3415U</value>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591A3CC</tstamp>
@@ -394,20 +394,20 @@
       <tstamp>5591A606</tstamp>
     </comp>
     <comp ref="IC3">
-      <value>OPAMP-DUALU</value>
+      <value>LM358</value>
       <footprint>SparkFun-SO08</footprint>
       <libsource lib="frep" part="OPAMP-DUALU"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591CDC4</tstamp>
     </comp>
     <comp ref="Q3">
-      <value>MOSFET-P</value>
+      <value>DMG3415U</value>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591CFA8</tstamp>
     </comp>
     <comp ref="Q4">
-      <value>MOSFET-P</value>
+      <value>DMG3415U</value>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591D0A1</tstamp>
@@ -433,13 +433,13 @@
       <tstamp>559307AB</tstamp>
     </comp>
     <comp ref="D13">
-      <value>DOUBLE_SCH_KCOM</value>
+      <value>SDM40E20LC</value>
       <libsource lib="device" part="DOUBLE_SCH_KCOM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5595767E</tstamp>
     </comp>
     <comp ref="D14">
-      <value>DOUBLE_SCH_KCOM</value>
+      <value>SDM40E20LC</value>
       <libsource lib="device" part="DOUBLE_SCH_KCOM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5595799F</tstamp>
@@ -537,7 +537,7 @@
       <tstamp>558CDED2</tstamp>
     </comp>
     <comp ref="D3">
-      <value>DIODE</value>
+      <value>DL4148</value>
       <footprint>frep:LED-0805</footprint>
       <libsource lib="device" part="DIODE"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
@@ -670,7 +670,7 @@
       <tstamp>558D720A</tstamp>
     </comp>
     <comp ref="IC2">
-      <value>OPAMP-DUALU</value>
+      <value>LM358</value>
       <footprint>frep:SOIC8</footprint>
       <libsource lib="frep" part="OPAMP-DUALU"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
@@ -705,7 +705,7 @@
       <tstamp>558D94EE</tstamp>
     </comp>
     <comp ref="Q1">
-      <value>MOSFET-P</value>
+      <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
@@ -859,7 +859,7 @@
       <tstamp>558FD6AF</tstamp>
     </comp>
     <comp ref="Q2">
-      <value>MOSFET-P</value>
+      <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
