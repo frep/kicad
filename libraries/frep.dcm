@@ -614,4 +614,10 @@ D zener diode
 K DEV DIODE
 $ENDCMP
 #
+$CMP ZENER_SOT23
+D zener diode
+K DEV DIODE
+F doc/ZenerSot23.pdf
+$ENDCMP
+#
 #End Doc Library
