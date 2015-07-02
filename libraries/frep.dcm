@@ -315,6 +315,11 @@ D schottky diode
 K DEV DIODE
 $ENDCMP
 #
+$CMP DOUBLE_SCH_KCOM
+D Double diode Shottky Cathodes communes
+K DEV DIODE
+$ENDCMP
+#
 $CMP DPST
 D Interrupteur double
 K switch
@@ -333,6 +338,11 @@ $ENDCMP
 $CMP HD44780LCD-1602
 D lcd char display 16x2 (HD44780)
 K LCD
+$ENDCMP
+#
+$CMP ICL7660
+D Voltage converter (pump)
+F intersil/icl7660.pdf
 $ENDCMP
 #
 $CMP INA169
