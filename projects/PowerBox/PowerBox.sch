@@ -707,10 +707,6 @@ Text GLabel 1800 1800 0    47   Input ~ 0
 V_MP
 Text GLabel 4000 1800 0    47   Input ~ 0
 V_MP
-Text GLabel 2200 1300 1    47   Input ~ 0
-V_MP
-Text GLabel 4400 1300 1    47   Input ~ 0
-V_MP
 $Comp
 L GND #PWR025
 U 1 1 558F4ADC
@@ -734,7 +730,7 @@ F 3 "" H 4400 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 1200 1300 1    47   Input ~ 0
-V_MP
+VREG_in
 $Comp
 L R R3
 U 1 1 558F5889
@@ -1283,6 +1279,137 @@ F 3 "" H 5000 7200 60  0000 C CNN
 	1    5000 7200
 	-1   0    0    -1  
 $EndComp
+Text GLabel 6700 4900 1    47   Output ~ 0
+Enable
+Text GLabel 4100 3900 3    47   Input ~ 0
+Enable
+$Comp
+L DOUBLE_SCH_KCOM D3
+U 1 1 5595767E
+P 3300 4300
+F 0 "D3" H 3450 4175 60  0000 C CNN
+F 1 "SDM40E20LC" H 3300 4450 60  0000 C CNN
+F 2 "frep:SOT23" H 3300 4300 60  0001 C CNN
+F 3 "" H 3300 4300 60  0000 C CNN
+	1    3300 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L DOUBLE_SCH_KCOM D4
+U 1 1 5595799F
+P 3900 6100
+F 0 "D4" H 3700 5950 60  0000 C CNN
+F 1 "SDM40E20LC" H 3900 6250 60  0000 C CNN
+F 2 "frep:SOT23" H 3900 6100 60  0001 C CNN
+F 3 "" H 3900 6100 60  0000 C CNN
+	1    3900 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 559585E1
+P 3300 4700
+F 0 "#PWR044" H 3300 4700 30  0001 C CNN
+F 1 "GND" H 3300 4630 30  0001 C CNN
+F 2 "" H 3300 4700 60  0000 C CNN
+F 3 "" H 3300 4700 60  0000 C CNN
+	1    3300 4700
+	-1   0    0    -1  
+$EndComp
+Text GLabel 3050 4450 3    47   Output ~ 0
+V+
+Text GLabel 5100 6800 2    47   Output ~ 0
+V-
+Text GLabel 4000 6300 2    47   Output ~ 0
+V+
+Text GLabel 2800 5150 1    47   Input ~ 0
+V+
+Text GLabel 2800 5750 3    47   Input ~ 0
+V-
+$Comp
+L GND #PWR045
+U 1 1 5595D63A
+P 2600 5750
+F 0 "#PWR045" H 2600 5750 30  0001 C CNN
+F 1 "GND" H 2600 5680 30  0001 C CNN
+F 2 "" H 2600 5750 60  0000 C CNN
+F 3 "" H 2600 5750 60  0000 C CNN
+	1    2600 5750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GND #PWR046
+U 1 1 5595D729
+P 5200 5750
+F 0 "#PWR046" H 5200 5750 30  0001 C CNN
+F 1 "GND" H 5200 5680 30  0001 C CNN
+F 2 "" H 5200 5750 60  0000 C CNN
+F 3 "" H 5200 5750 60  0000 C CNN
+	1    5200 5750
+	-1   0    0    -1  
+$EndComp
+Text GLabel 6000 4900 1    47   Output ~ 0
+LipoSwitch
+Text GLabel 5200 5150 1    47   Input ~ 0
+LipoSwitch
+Text GLabel 2600 5150 1    47   Input ~ 0
+LipoSwitch
+Text GLabel 5900 6100 3    47   Input ~ 0
+V+
+Text GLabel 6100 6100 3    47   Input ~ 0
+V-
+Text Notes 3050 1150 0    60   ~ 0
+Displaydriver
+Text GLabel 6000 6700 3    47   Output ~ 0
+V+
+$Comp
+L PWR_FLAG #FLG047
+U 1 1 5596ED03
+P 6000 6700
+F 0 "#FLG047" H 6000 6795 30  0001 C CNN
+F 1 "PWR_FLAG" H 6000 6880 30  0000 C CNN
+F 2 "" H 6000 6700 60  0000 C CNN
+F 3 "" H 6000 6700 60  0000 C CNN
+	1    6000 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 4500 4050 0    60   ~ 0
+Load: 5.2V, max 1A
+$Comp
+L ZENER_SOT23 D2
+U 1 1 559758C8
+P 2650 4100
+F 0 "D2" H 2700 4200 50  0000 C CNN
+F 1 "5.3V Zener" H 2650 4000 40  0000 C CNN
+F 2 "frep:SOT23" H 2650 4100 60  0001 C CNN
+F 3 "" H 2650 4100 60  0000 C CNN
+	1    2650 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ZENER_SOT23 D10
+U 1 1 55975A6E
+P 7700 4100
+F 0 "D10" H 7750 4200 50  0000 C CNN
+F 1 "5.3V Zener" H 7700 4000 40  0000 C CNN
+F 2 "frep:SOT23" H 7700 4100 60  0001 C CNN
+F 3 "" H 7700 4100 60  0000 C CNN
+	1    7700 4100
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 2450 4100
+NoConn ~ 7500 4100
+$Comp
+L ICL7660 U2
+U 1 1 5592E8A4
+P 3950 6950
+F 0 "U2" H 4150 7350 70  0000 L CNN
+F 1 "ICL7660" H 4000 6500 70  0000 L CNN
+F 2 "frep:SOIC8" H 3950 6950 60  0001 C CNN
+F 3 "" H 3950 6950 60  0000 C CNN
+	1    3950 6950
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	2000 3900 3800 3900
 Wire Wire Line
@@ -1395,48 +1522,11 @@ Wire Wire Line
 	3100 6900 3100 7000
 Wire Wire Line
 	3100 7000 2900 7000
-Text GLabel 6700 4900 1    47   Output ~ 0
-Enable
-Text GLabel 4100 3900 3    47   Input ~ 0
-Enable
 Wire Wire Line
 	3900 3900 3900 4800
 Wire Wire Line
 	3500 4800 4300 4800
 Connection ~ 3900 4800
-$Comp
-L DOUBLE_SCH_KCOM D3
-U 1 1 5595767E
-P 3300 4300
-F 0 "D3" H 3450 4175 60  0000 C CNN
-F 1 "SDM40E20LC" H 3300 4450 60  0000 C CNN
-F 2 "frep:SOT23" H 3300 4300 60  0001 C CNN
-F 3 "" H 3300 4300 60  0000 C CNN
-	1    3300 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L DOUBLE_SCH_KCOM D4
-U 1 1 5595799F
-P 3900 6100
-F 0 "D4" H 3700 5950 60  0000 C CNN
-F 1 "SDM40E20LC" H 3900 6250 60  0000 C CNN
-F 2 "frep:SOT23" H 3900 6100 60  0001 C CNN
-F 3 "" H 3900 6100 60  0000 C CNN
-	1    3900 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR044
-U 1 1 559585E1
-P 3300 4700
-F 0 "#PWR044" H 3300 4700 30  0001 C CNN
-F 1 "GND" H 3300 4630 30  0001 C CNN
-F 2 "" H 3300 4700 60  0000 C CNN
-F 3 "" H 3300 4700 60  0000 C CNN
-	1    3300 4700
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2900 6600 3100 6600
 Wire Wire Line
@@ -1445,57 +1535,19 @@ Wire Wire Line
 	3100 4300 3050 4300
 Wire Wire Line
 	3050 4300 3050 4450
-Text GLabel 3050 4450 3    47   Output ~ 0
-V+
 Wire Wire Line
 	4800 6800 5100 6800
-Text GLabel 5100 6800 2    47   Output ~ 0
-V-
 Connection ~ 5000 6800
 Wire Wire Line
 	3500 6300 3500 6400
 Wire Wire Line
 	4300 6300 4300 6400
-Text GLabel 4000 6300 2    47   Output ~ 0
-V+
 Wire Wire Line
 	4000 6300 3900 6300
-Text GLabel 2800 5150 1    47   Input ~ 0
-V+
-Text GLabel 2800 5750 3    47   Input ~ 0
-V-
-$Comp
-L GND #PWR045
-U 1 1 5595D63A
-P 2600 5750
-F 0 "#PWR045" H 2600 5750 30  0001 C CNN
-F 1 "GND" H 2600 5680 30  0001 C CNN
-F 2 "" H 2600 5750 60  0000 C CNN
-F 3 "" H 2600 5750 60  0000 C CNN
-	1    2600 5750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L GND #PWR046
-U 1 1 5595D729
-P 5200 5750
-F 0 "#PWR046" H 5200 5750 30  0001 C CNN
-F 1 "GND" H 5200 5680 30  0001 C CNN
-F 2 "" H 5200 5750 60  0000 C CNN
-F 3 "" H 5200 5750 60  0000 C CNN
-	1    5200 5750
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
 	2600 5550 2600 5750
 Wire Wire Line
 	5200 5550 5200 5750
-Text GLabel 6000 4900 1    47   Output ~ 0
-LipoSwitch
-Text GLabel 5200 5150 1    47   Input ~ 0
-LipoSwitch
-Text GLabel 2600 5150 1    47   Input ~ 0
-LipoSwitch
 Wire Wire Line
 	2600 5150 2600 5350
 Wire Wire Line
@@ -1503,10 +1555,6 @@ Wire Wire Line
 Wire Wire Line
 	3750 4450 4050 4450
 Connection ~ 3900 4450
-Text GLabel 5900 6100 3    47   Input ~ 0
-V+
-Text GLabel 6100 6100 3    47   Input ~ 0
-V-
 Wire Wire Line
 	1400 5900 950  5900
 Wire Wire Line
@@ -1554,57 +1602,9 @@ Wire Wire Line
 	5700 1900 5700 800 
 Wire Wire Line
 	5700 800  6600 800 
-Text Notes 3050 1150 0    60   ~ 0
-Displaydriver
 Connection ~ 3300 3900
-Text GLabel 6000 6700 3    47   Output ~ 0
-V+
-$Comp
-L PWR_FLAG #FLG047
-U 1 1 5596ED03
-P 6000 6700
-F 0 "#FLG047" H 6000 6795 30  0001 C CNN
-F 1 "PWR_FLAG" H 6000 6880 30  0000 C CNN
-F 2 "" H 6000 6700 60  0000 C CNN
-F 3 "" H 6000 6700 60  0000 C CNN
-	1    6000 6700
-	1    0    0    -1  
-$EndComp
-Text Notes 4500 4050 0    60   ~ 0
-Load: 5.2V, max 1A
-$Comp
-L ZENER_SOT23 D2
-U 1 1 559758C8
-P 2650 4100
-F 0 "D2" H 2700 4200 50  0000 C CNN
-F 1 "5.3V Zener" H 2650 4000 40  0000 C CNN
-F 2 "frep:SOT23" H 2650 4100 60  0001 C CNN
-F 3 "" H 2650 4100 60  0000 C CNN
-	1    2650 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L ZENER_SOT23 D10
-U 1 1 55975A6E
-P 7700 4100
-F 0 "D10" H 7750 4200 50  0000 C CNN
-F 1 "5.3V Zener" H 7700 4000 40  0000 C CNN
-F 2 "frep:SOT23" H 7700 4100 60  0001 C CNN
-F 3 "" H 7700 4100 60  0000 C CNN
-	1    7700 4100
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 2450 4100
-NoConn ~ 7500 4100
-$Comp
-L ICL7660 U2
-U 1 1 5592E8A4
-P 3950 6950
-F 0 "U2" H 4150 7350 70  0000 L CNN
-F 1 "ICL7660" H 4000 6500 70  0000 L CNN
-F 2 "frep:SOIC8" H 3950 6950 60  0001 C CNN
-F 3 "" H 3950 6950 60  0000 C CNN
-	1    3950 6950
-	1    0    0    -1  
-$EndComp
+Text GLabel 2200 1300 1    47   Input ~ 0
+VREG_in
+Text GLabel 4400 1300 1    47   Input ~ 0
+VREG_in
 $EndSCHEMATC
