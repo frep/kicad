@@ -609,7 +609,7 @@ L JUMPER JP2
 U 1 1 558A2FDA
 P 6750 3900
 F 0 "JP2" H 6750 4050 60  0000 C CNN
-F 1 "JUMPER" H 6750 3820 40  0000 C CNN
+F 1 "+ -" H 6750 3820 40  0000 C CNN
 F 2 "frep:Pin_Proto_Straight_1x02" H 6750 3900 60  0001 C CNN
 F 3 "" H 6750 3900 60  0000 C CNN
 	1    6750 3900
@@ -617,8 +617,6 @@ F 3 "" H 6750 3900 60  0000 C CNN
 $EndComp
 Text Notes 8100 3650 2    60   ~ 0
 Jumper for current measurement
-Text Notes 6600 4075 0    60   ~ 0
-+   -
 $Sheet
 S 6600 2050 1450 1300
 U 558C610A

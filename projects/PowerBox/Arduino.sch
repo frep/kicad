@@ -40,7 +40,7 @@ Title "Power Box"
 Date "2015-07-02"
 Rev "A"
 Comp ""
-Comment1 " - Grove connectors (1xI2C, 1xDigital, 1xAnalog, 1xSerial)"
+Comment1 ""
 Comment2 " - 4 Neopixel"
 Comment3 " - INA219 (over I2C)"
 Comment4 "Arduino Leonardo"
@@ -576,7 +576,7 @@ L LED D15
 U 1 1 558D63C4
 P 5500 7200
 F 0 "D15" H 5500 7300 50  0000 C CNN
-F 1 "Power" H 5500 7100 50  0000 C CNN
+F 1 "Power Ard." H 5500 7100 50  0000 C CNN
 F 2 "frep:LED-0805" H 5500 7200 60  0001 C CNN
 F 3 "" H 5500 7200 60  0000 C CNN
 	1    5500 7200
@@ -1110,8 +1110,6 @@ F 3 "" H 3300 1550 30  0000 C CNN
 	1    3300 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8700 6000 2    47   Input ~ 0
-D7
 Text GLabel 8700 5700 2    47   Input ~ 0
 D5
 Text GLabel 8700 5850 2    47   Input ~ 0
@@ -1624,4 +1622,6 @@ Wire Bus Line
 	900  2400 900  1000
 Wire Bus Line
 	900  1000 3900 1000
+Text GLabel 8700 6000 2    47   Input ~ 0
+IO_10
 $EndSCHEMATC
