@@ -1110,10 +1110,6 @@ F 3 "" H 3300 1550 30  0000 C CNN
 	1    3300 1550
 	1    0    0    -1  
 $EndComp
-Text GLabel 8700 5700 2    47   Input ~ 0
-D5
-Text GLabel 8700 5850 2    47   Input ~ 0
-D6
 Connection ~ 2650 4150
 $Comp
 L JUMPER JP5
@@ -1622,6 +1618,10 @@ Wire Bus Line
 	900  2400 900  1000
 Wire Bus Line
 	900  1000 3900 1000
+Text GLabel 8700 5700 2    47   Input ~ 0
+IO_12
+Text GLabel 8700 5850 2    47   Input ~ 0
+D7
 Text GLabel 8700 6000 2    47   Input ~ 0
-IO_10
+IO_11
 $EndSCHEMATC
