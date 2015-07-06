@@ -701,10 +701,6 @@ Text GLabel 3200 2100 2    47   Output ~ 0
 SEGG
 Text GLabel 3200 2200 2    47   Output ~ 0
 SEGDP
-Text GLabel 1800 1800 0    47   Input ~ 0
-V_MP
-Text GLabel 4000 1800 0    47   Input ~ 0
-V_MP
 $Comp
 L GND #PWR025
 U 1 1 558F4ADC
@@ -1604,5 +1600,9 @@ Connection ~ 3300 3900
 Text GLabel 2200 1300 1    47   Input ~ 0
 VREG_in
 Text GLabel 4400 1300 1    47   Input ~ 0
+VREG_in
+Text GLabel 1800 1800 0    47   Input ~ 0
+VREG_in
+Text GLabel 4000 1800 0    47   Input ~ 0
 VREG_in
 $EndSCHEMATC
