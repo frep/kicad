@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/frehnerp/Documents/kicad/projects/PowerBox/PowerBox.sch)
-    (date "Montag, 06. Juli 2015 23:25:23")
+    (date "Dienstag, 07. Juli 2015 18:03:44")
     (tool "Eeschema (2015-06-26 BZR 5832)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -22,8 +22,8 @@
         (date 2015-07-02)
         (source Arduino.sch)
         (comment (number 1) (value ""))
-        (comment (number 2) (value " - 4 Neopixel"))
-        (comment (number 3) (value " - INA219 (over I2C)"))
+        (comment (number 2) (value " - current and voltage measurement with INA219 (over I2C)"))
+        (comment (number 3) (value " - 100% compatible with some jumpers"))
         (comment (number 4) (value "Arduino Leonardo")))))
   (components
     (comp (ref CON1)
@@ -502,7 +502,7 @@
       (sheetpath (names /Arduino/) (tstamps /558C610A/))
       (tstamp 558CF02E))
     (comp (ref P7)
-      (value CONN_3X2)
+      (value ICSP)
       (footprint frep:Pin_Proto_Straight_2x03)
       (libsource (lib conn) (part CONN_3X2))
       (sheetpath (names /Arduino/) (tstamps /558C610A/))
