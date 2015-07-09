@@ -631,37 +631,37 @@ IO_13
 $Comp
 L TAC_SWITCH S5
 U 1 1 558D6CB3
-P 3300 1400
-F 0 "S5" H 3450 1525 50  0000 L BNN
-F 1 "Select" H 3175 1175 50  0000 L BNN
-F 2 "frep:TACTILE-PTH" H 3300 1550 50  0001 C CNN
-F 3 "" H 3300 1400 60  0000 C CNN
-	1    3300 1400
-	1    0    0    -1  
+P 3600 2100
+F 0 "S5" H 3750 2225 50  0000 L BNN
+F 1 "Select" H 3475 1875 50  0000 L BNN
+F 2 "frep:TACTILE-PTH" H 3600 2250 50  0001 C CNN
+F 3 "" H 3600 2100 60  0000 C CNN
+	1    3600 2100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R36
 U 1 1 558D6CC5
-P 3750 1500
-F 0 "R36" V 3830 1500 40  0000 C CNN
-F 1 "10K" V 3757 1501 40  0000 C CNN
-F 2 "frep:R0805" V 3680 1500 30  0001 C CNN
-F 3 "" H 3750 1500 30  0000 C CNN
-	1    3750 1500
-	0    1    1    0   
+P 3700 1650
+F 0 "R36" V 3780 1650 40  0000 C CNN
+F 1 "10K" V 3707 1651 40  0000 C CNN
+F 2 "frep:R0805" V 3630 1650 30  0001 C CNN
+F 3 "" H 3700 1650 30  0000 C CNN
+	1    3700 1650
+	1    0    0    -1  
 $EndComp
-Text GLabel 4100 1750 2    47   Output ~ 0
+Text GLabel 3950 1300 1    47   Output ~ 0
 D4
 $Comp
 L GND #PWR063
 U 1 1 558D6D6B
-P 3000 1500
-F 0 "#PWR063" H 3000 1500 30  0001 C CNN
-F 1 "GND" H 3000 1430 30  0001 C CNN
-F 2 "" H 3000 1500 60  0000 C CNN
-F 3 "" H 3000 1500 60  0000 C CNN
-	1    3000 1500
-	0    1    1    0   
+P 3700 2400
+F 0 "#PWR063" H 3700 2400 30  0001 C CNN
+F 1 "GND" H 3700 2330 30  0001 C CNN
+F 2 "" H 3700 2400 60  0000 C CNN
+F 3 "" H 3700 2400 60  0000 C CNN
+	1    3700 2400
+	1    0    0    -1  
 $EndComp
 $Comp
 L USB-MINI-B-Vert CON3
@@ -962,7 +962,7 @@ Text GLabel 7100 5450 2    47   Input ~ 0
 VREG_in
 Text GLabel 10375 5800 2    47   Input ~ 0
 VREG_in
-Text GLabel 4000 1500 2    47   Input ~ 0
+Text GLabel 3700 1400 1    47   Input ~ 0
 VREG_in
 Text GLabel 1100 6300 1    47   Input ~ 0
 VREG_in
@@ -1035,6 +1035,196 @@ Text GLabel 4500 7350 2    47   Input ~ 0
 VREG_in
 Text GLabel 4500 7150 2    47   Input ~ 0
 VREG_in
+Text HLabel 5500 6450 2    60   Input ~ 0
+Vin+
+Text HLabel 5500 6950 2    60   Input ~ 0
+Vin-
+Text HLabel 1350 1850 0    60   Input ~ 0
+V_BATT
+$Comp
+L R R28
+U 1 1 558E4DC9
+P 5350 6700
+F 0 "R28" V 5430 6700 40  0000 C CNN
+F 1 "0.1R 1%" V 5357 6701 40  0000 C CNN
+F 2 "frep:R1206" V 5280 6700 30  0001 C CNN
+F 3 "" H 5350 6700 30  0000 C CNN
+	1    5350 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER JP5
+U 1 1 558E93BB
+P 3950 1600
+F 0 "JP5" H 3950 1750 60  0000 C CNN
+F 1 "JUMPER" H 3950 1520 40  0000 C CNN
+F 2 "frep:Pin_Proto_Straight_1x02" H 3950 1600 60  0001 C CNN
+F 3 "" H 3950 1600 60  0000 C CNN
+	1    3950 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L JUMPER JP4
+U 1 1 558EB730
+P 1650 1850
+F 0 "JP4" H 1650 2000 60  0000 C CNN
+F 1 "JUMPER" H 1650 1770 40  0000 C CNN
+F 2 "frep:Pin_Proto_Straight_1x02" H 1650 1850 60  0001 C CNN
+F 3 "" H 1650 1850 60  0000 C CNN
+	1    1650 1850
+	-1   0    0    -1  
+$EndComp
+Text GLabel 4000 7350 0    47   Input ~ 0
+D3/SCL
+Text GLabel 4000 7150 0    47   Input ~ 0
+D2/SDA
+Text HLabel 1350 1250 0    60   Output ~ 0
+Data
+Text HLabel 1350 1400 0    60   Output ~ 0
+Clock
+Text HLabel 1350 1550 0    60   Output ~ 0
+Latch
+$Comp
+L INA219 U4
+U 1 1 558FD6AF
+P 4250 6700
+F 0 "U4" H 4250 7000 60  0000 C CNN
+F 1 "INA219" H 4250 6400 60  0000 C CNN
+F 2 "frep:SOIC8" H 4250 6500 60  0001 C CNN
+F 3 "" H 4250 6500 60  0000 C CNN
+	1    4250 6700
+	1    0    0    -1  
+$EndComp
+Text Notes 4900 2725 0    60   ~ 0
+transistor is conducting, when Vgs < 0
+Text GLabel 4000 4950 0    47   Input ~ 0
+XTAL2
+Text GLabel 4000 5050 0    47   Input ~ 0
+XTAL1
+Text GLabel 900  4350 1    47   Output ~ 0
+XTAL2
+Text GLabel 1500 4350 1    47   Output ~ 0
+XTAL1
+$Comp
+L MOSFET-P Q5
+U 1 1 559012E9
+P 6900 1500
+F 0 "Q5" H 6925 1725 50  0000 L BNN
+F 1 "DMG3415U" H 6700 1300 50  0000 L BNN
+F 2 "frep:SOT23" V 7050 1500 50  0001 C CNN
+F 3 "" V 6900 1500 60  0000 C CNN
+	1    6900 1500
+	0    -1   -1   0   
+$EndComp
+Text HLabel 5450 1400 0    60   Input ~ 0
+VCC
+Text GLabel 5450 1600 0    47   Input ~ 0
+3V3
+$Comp
+L VR VR1
+U 1 1 55904190
+P 2000 3250
+F 0 "VR1" V 2060 3204 40  0000 C TNN
+F 1 "VR" V 2000 3250 40  0000 C CNN
+F 2 "frep:R0805" H 2000 3250 60  0001 C CNN
+F 3 "" H 2000 3250 60  0000 C CNN
+	1    2000 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L VR VR2
+U 1 1 559041A2
+P 2300 3250
+F 0 "VR2" V 2360 3204 40  0000 C TNN
+F 1 "VR" V 2300 3250 40  0000 C CNN
+F 2 "frep:R0805" H 2300 3250 60  0001 C CNN
+F 3 "" H 2300 3250 60  0000 C CNN
+	1    2300 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L PWR_FLAG #FLG079
+U 1 1 5590A4A5
+P 7300 1800
+F 0 "#FLG079" H 7300 1895 30  0001 C CNN
+F 1 "PWR_FLAG" H 7300 1980 30  0000 C CNN
+F 2 "" H 7300 1800 60  0000 C CNN
+F 3 "" H 7300 1800 60  0000 C CNN
+	1    7300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR080
+U 1 1 558FB9C2
+P 2300 3500
+F 0 "#PWR080" H 2300 3500 30  0001 C CNN
+F 1 "GND" H 2300 3430 30  0001 C CNN
+F 2 "" H 2300 3500 60  0000 C CNN
+F 3 "" H 2300 3500 60  0000 C CNN
+	1    2300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR081
+U 1 1 558FBA8A
+P 2000 3500
+F 0 "#PWR081" H 2000 3500 30  0001 C CNN
+F 1 "GND" H 2000 3430 30  0001 C CNN
+F 2 "" H 2000 3500 60  0000 C CNN
+F 3 "" H 2000 3500 60  0000 C CNN
+	1    2000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR082
+U 1 1 55907A4E
+P 3500 3100
+F 0 "#PWR082" H 3500 3100 30  0001 C CNN
+F 1 "GND" H 3500 3030 30  0001 C CNN
+F 2 "" H 3500 3100 60  0000 C CNN
+F 3 "" H 3500 3100 60  0000 C CNN
+	1    3500 3100
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 1150 0    60   ~ 0
+Automatic power source selection
+Text Notes 9850 1150 0    60   ~ 0
+Arduino headers
+Text Notes 9900 6200 0    60   ~ 0
+ICSP
+Text Notes 3650 6300 0    60   ~ 0
+Current / Voltage measurment
+$Comp
+L ZENER_SOT23 D12
+U 1 1 559771D6
+P 3500 2900
+F 0 "D12" H 3550 3000 50  0000 C CNN
+F 1 "5.3V Zener" H 3500 2800 40  0000 C CNN
+F 2 "frep:SOT23" H 3500 2900 60  0001 C CNN
+F 3 "" H 3500 2900 60  0000 C CNN
+	1    3500 2900
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3300 2900
+Text GLabel 2450 1250 2    47   Input ~ 0
+IO_12
+Text GLabel 2450 1400 2    47   Input ~ 0
+D7
+Text GLabel 2450 1550 2    47   Input ~ 0
+IO_11
+Text Notes 1150 5850 0    60   ~ 0
+Status indication
+$Comp
+L R R37
+U 1 1 559D6B9D
+P 2200 1850
+F 0 "R37" V 2280 1850 40  0000 C CNN
+F 1 "10K" V 2207 1851 40  0000 C CNN
+F 2 "frep:R0805" V 2130 1850 30  0001 C CNN
+F 3 "" H 2200 1850 30  0000 C CNN
+	1    2200 1850
+	0    1    1    0   
+$EndComp
 Wire Wire Line
 	900  5200 1500 5200
 Wire Wire Line
@@ -1071,11 +1261,11 @@ Wire Wire Line
 Wire Wire Line
 	7450 4550 7100 4550
 Wire Wire Line
-	3500 1400 3500 1750
+	3600 1900 3950 1900
 Wire Wire Line
-	3100 1400 3100 1500
+	3600 2300 3700 2300
 Wire Wire Line
-	3100 1500 3000 1500
+	3700 2300 3700 2400
 Wire Wire Line
 	2300 2700 3750 2700
 Connection ~ 2700 2700
@@ -1093,131 +1283,22 @@ Connection ~ 6900 1800
 Wire Wire Line
 	7900 2400 8300 2400
 Connection ~ 8100 2400
-Text HLabel 5500 6450 2    60   Input ~ 0
-Vin+
-Text HLabel 5500 6950 2    60   Input ~ 0
-Vin-
-Text HLabel 1350 1850 0    60   Input ~ 0
-V_BATT
-$Comp
-L R R28
-U 1 1 558E4DC9
-P 5350 6700
-F 0 "R28" V 5430 6700 40  0000 C CNN
-F 1 "0.1R 1%" V 5357 6701 40  0000 C CNN
-F 2 "frep:R1206" V 5280 6700 30  0001 C CNN
-F 3 "" H 5350 6700 30  0000 C CNN
-	1    5350 6700
-	1    0    0    -1  
-$EndComp
 Connection ~ 2650 4150
-$Comp
-L JUMPER JP5
-U 1 1 558E93BB
-P 3800 1750
-F 0 "JP5" H 3800 1900 60  0000 C CNN
-F 1 "JUMPER" H 3800 1670 40  0000 C CNN
-F 2 "frep:Pin_Proto_Straight_1x02" H 3800 1750 60  0001 C CNN
-F 3 "" H 3800 1750 60  0000 C CNN
-	1    3800 1750
-	-1   0    0    1   
-$EndComp
-Connection ~ 3500 1500
-$Comp
-L JUMPER JP4
-U 1 1 558EB730
-P 1650 1850
-F 0 "JP4" H 1650 2000 60  0000 C CNN
-F 1 "JUMPER" H 1650 1770 40  0000 C CNN
-F 2 "frep:Pin_Proto_Straight_1x02" H 1650 1850 60  0001 C CNN
-F 3 "" H 1650 1850 60  0000 C CNN
-	1    1650 1850
-	-1   0    0    -1  
-$EndComp
-Text GLabel 2450 1850 2    47   Input ~ 0
-A2
-Text GLabel 4000 7350 0    47   Input ~ 0
-D3/SCL
-Text GLabel 4000 7150 0    47   Input ~ 0
-D2/SDA
-Text HLabel 1350 1250 0    60   Output ~ 0
-Data
-Text HLabel 1350 1400 0    60   Output ~ 0
-Clock
-Text HLabel 1350 1550 0    60   Output ~ 0
-Latch
+Connection ~ 3700 1900
 Wire Wire Line
 	1350 1250 2450 1250
 Wire Wire Line
 	1350 1400 2450 1400
 Wire Wire Line
 	1350 1550 2450 1550
-$Comp
-L INA219 U4
-U 1 1 558FD6AF
-P 4250 6700
-F 0 "U4" H 4250 7000 60  0000 C CNN
-F 1 "INA219" H 4250 6400 60  0000 C CNN
-F 2 "frep:SOIC8" H 4250 6500 60  0001 C CNN
-F 3 "" H 4250 6500 60  0000 C CNN
-	1    4250 6700
-	1    0    0    -1  
-$EndComp
-Text Notes 4900 2725 0    60   ~ 0
-transistor is conducting, when Vgs < 0
-Text GLabel 4000 4950 0    47   Input ~ 0
-XTAL2
-Text GLabel 4000 5050 0    47   Input ~ 0
-XTAL1
 Wire Wire Line
 	1450 4450 1500 4450
-Text GLabel 900  4350 1    47   Output ~ 0
-XTAL2
-Text GLabel 1500 4350 1    47   Output ~ 0
-XTAL1
 Wire Wire Line
 	900  4350 900  4800
-$Comp
-L MOSFET-P Q5
-U 1 1 559012E9
-P 6900 1500
-F 0 "Q5" H 6925 1725 50  0000 L BNN
-F 1 "DMG3415U" H 6700 1300 50  0000 L BNN
-F 2 "frep:SOT23" V 7050 1500 50  0001 C CNN
-F 3 "" V 6900 1500 60  0000 C CNN
-	1    6900 1500
-	0    -1   -1   0   
-$EndComp
-Text HLabel 5450 1400 0    60   Input ~ 0
-VCC
-Text GLabel 5450 1600 0    47   Input ~ 0
-3V3
 Wire Wire Line
 	6900 1700 6900 2400
 Wire Wire Line
 	6050 1500 6600 1500
-$Comp
-L VR VR1
-U 1 1 55904190
-P 2000 3250
-F 0 "VR1" V 2060 3204 40  0000 C TNN
-F 1 "VR" V 2000 3250 40  0000 C CNN
-F 2 "frep:R0805" H 2000 3250 60  0001 C CNN
-F 3 "" H 2000 3250 60  0000 C CNN
-	1    2000 3250
-	1    0    0    -1  
-$EndComp
-$Comp
-L VR VR2
-U 1 1 559041A2
-P 2300 3250
-F 0 "VR2" V 2360 3204 40  0000 C TNN
-F 1 "VR" V 2300 3250 40  0000 C CNN
-F 2 "frep:R0805" H 2300 3250 60  0001 C CNN
-F 3 "" H 2300 3250 60  0000 C CNN
-	1    2300 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4000 3650 3400 3650
 Wire Wire Line
@@ -1226,17 +1307,6 @@ Wire Wire Line
 	1800 3000 2150 3000
 Wire Wire Line
 	3400 3750 4000 3750
-$Comp
-L PWR_FLAG #FLG079
-U 1 1 5590A4A5
-P 7300 1800
-F 0 "#FLG079" H 7300 1895 30  0001 C CNN
-F 1 "PWR_FLAG" H 7300 1980 30  0000 C CNN
-F 2 "" H 7300 1800 60  0000 C CNN
-F 3 "" H 7300 1800 60  0000 C CNN
-	1    7300 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5000 1800 7550 1800
 Connection ~ 7300 1800
@@ -1252,42 +1322,7 @@ Wire Wire Line
 Wire Wire Line
 	2150 3750 2150 3000
 Connection ~ 2000 3000
-$Comp
-L GND #PWR080
-U 1 1 558FB9C2
-P 2300 3500
-F 0 "#PWR080" H 2300 3500 30  0001 C CNN
-F 1 "GND" H 2300 3430 30  0001 C CNN
-F 2 "" H 2300 3500 60  0000 C CNN
-F 3 "" H 2300 3500 60  0000 C CNN
-	1    2300 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR081
-U 1 1 558FBA8A
-P 2000 3500
-F 0 "#PWR081" H 2000 3500 30  0001 C CNN
-F 1 "GND" H 2000 3430 30  0001 C CNN
-F 2 "" H 2000 3500 60  0000 C CNN
-F 3 "" H 2000 3500 60  0000 C CNN
-	1    2000 3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR082
-U 1 1 55907A4E
-P 3500 3100
-F 0 "#PWR082" H 3500 3100 30  0001 C CNN
-F 1 "GND" H 3500 3030 30  0001 C CNN
-F 2 "" H 3500 3100 60  0000 C CNN
-F 3 "" H 3500 3100 60  0000 C CNN
-	1    3500 3100
-	1    0    0    -1  
-$EndComp
 Connection ~ 3500 2700
-Text Notes 5000 1150 0    60   ~ 0
-Automatic power source selection
 Wire Bus Line
 	10800 5300 9600 5300
 Wire Bus Line
@@ -1296,12 +1331,6 @@ Wire Bus Line
 	9600 1000 10800 1000
 Wire Bus Line
 	10800 1000 10800 5300
-Text Notes 9850 1150 0    60   ~ 0
-Arduino headers
-Text Notes 9900 6200 0    60   ~ 0
-ICSP
-Text Notes 3650 6300 0    60   ~ 0
-Current / Voltage measurment
 Wire Wire Line
 	3500 6750 3650 6750
 Wire Wire Line
@@ -1320,18 +1349,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 6550 5250 6450
 Connection ~ 5350 6450
-$Comp
-L ZENER_SOT23 D12
-U 1 1 559771D6
-P 3500 2900
-F 0 "D12" H 3550 3000 50  0000 C CNN
-F 1 "5.3V Zener" H 3500 2800 40  0000 C CNN
-F 2 "frep:SOT23" H 3500 2900 60  0001 C CNN
-F 3 "" H 3500 2900 60  0000 C CNN
-	1    3500 2900
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 3300 2900
 Wire Bus Line
 	5950 6150 5950 7550
 Wire Bus Line
@@ -1340,12 +1357,6 @@ Wire Bus Line
 	2950 7550 2950 6150
 Wire Bus Line
 	2950 6150 5950 6150
-Text GLabel 2450 1250 2    47   Input ~ 0
-IO_12
-Text GLabel 2450 1400 2    47   Input ~ 0
-D7
-Text GLabel 2450 1550 2    47   Input ~ 0
-IO_11
 Wire Bus Line
 	4800 1000 8600 1000
 Wire Bus Line
@@ -1354,8 +1365,6 @@ Wire Bus Line
 	8600 3000 4800 3000
 Wire Bus Line
 	4800 3000 4800 1000
-Text Notes 1150 5850 0    60   ~ 0
-Status indication
 Wire Bus Line
 	900  5700 2200 5700
 Wire Bus Line
@@ -1364,15 +1373,6 @@ Wire Bus Line
 	2200 7600 900  7600
 Wire Bus Line
 	900  7600 900  5700
-$Comp
-L R R37
-U 1 1 559D6B9D
-P 2200 1850
-F 0 "R37" V 2280 1850 40  0000 C CNN
-F 1 "10K" V 2207 1851 40  0000 C CNN
-F 2 "frep:R0805" V 2130 1850 30  0001 C CNN
-F 3 "" H 2200 1850 30  0000 C CNN
-	1    2200 1850
-	0    1    1    0   
-$EndComp
+Text GLabel 2450 1850 2    47   Input ~ 0
+A0
 $EndSCHEMATC
