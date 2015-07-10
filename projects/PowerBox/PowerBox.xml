@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/frehnerp/Documents/kicad/projects/PowerBox/PowerBox.sch</source>
-    <date>Donnerstag, 09. Juli 2015 19:15:43</date>
+    <date>Freitag, 10. Juli 2015 20:49:40</date>
     <tool>Eeschema (2015-06-26 BZR 5832)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -42,6 +42,9 @@
     <comp ref="S1">
       <value>Lipo Select</value>
       <footprint>frep:Switch_SPDT</footprint>
+      <fields>
+        <field name="DK">CKN9565-ND</field>
+      </fields>
       <libsource lib="frep" part="SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55808B94</tstamp>
@@ -49,6 +52,9 @@
     <comp ref="P1">
       <value>CONN_2</value>
       <footprint>frep:JST-PH-2-THM</footprint>
+      <fields>
+        <field name="DK">455-1704-ND</field>
+      </fields>
       <libsource lib="conn" part="CONN_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55808F97</tstamp>
@@ -56,6 +62,9 @@
     <comp ref="P2">
       <value>CONN_2</value>
       <footprint>frep:JST-PH-2-THM</footprint>
+      <fields>
+        <field name="DK">455-1704-ND</field>
+      </fields>
       <libsource lib="conn" part="CONN_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55808FA9</tstamp>
@@ -63,6 +72,9 @@
     <comp ref="S2">
       <value>Load on/off</value>
       <footprint>frep:Switch_SPDT</footprint>
+      <fields>
+        <field name="DK">CKN9565-ND</field>
+      </fields>
       <libsource lib="frep" part="SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5580977F</tstamp>
@@ -70,6 +82,9 @@
     <comp ref="S3">
       <value>Arduino on/off</value>
       <footprint>frep:Switch_SPDT</footprint>
+      <fields>
+        <field name="DK">CKN9565-ND</field>
+      </fields>
       <libsource lib="frep" part="SPDT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5580A99B</tstamp>
@@ -77,6 +92,9 @@
     <comp ref="R14">
       <value>43K 1%</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P43.0KCCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55833755</tstamp>
@@ -84,6 +102,9 @@
     <comp ref="R13">
       <value>78.7K 1%</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P78.7KCCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55833774</tstamp>
@@ -91,6 +112,9 @@
     <comp ref="R15">
       <value>49.9K 1%</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P49.9KCCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55833789</tstamp>
@@ -98,6 +122,9 @@
     <comp ref="R12">
       <value>49.9K 1%</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P49.9KCCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55833794</tstamp>
@@ -133,6 +160,9 @@
     <comp ref="IC1">
       <value>LM358</value>
       <footprint>frep:SOIC8</footprint>
+      <fields>
+        <field name="DK">LM358MXFSCT-ND</field>
+      </fields>
       <libsource lib="frep" part="OPAMP-DUALU"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5583A310</tstamp>
@@ -154,6 +184,9 @@
     <comp ref="R4">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55846585</tstamp>
@@ -168,6 +201,9 @@
     <comp ref="R5">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558470BF</tstamp>
@@ -189,6 +225,9 @@
     <comp ref="R11">
       <value>300R 1%</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P300CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5586A13E</tstamp>
@@ -210,6 +249,9 @@
     <comp ref="U1">
       <value>74HC595</value>
       <footprint>frep:SO16</footprint>
+      <fields>
+        <field name="DK">296-14858-1-ND</field>
+      </fields>
       <libsource lib="74xx" part="74HC595"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F0DE7</tstamp>
@@ -217,6 +259,9 @@
     <comp ref="U3">
       <value>74HC595</value>
       <footprint>frep:SO16</footprint>
+      <fields>
+        <field name="DK">296-14858-1-ND</field>
+      </fields>
       <libsource lib="74xx" part="74HC595"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F0E31</tstamp>
@@ -238,6 +283,9 @@
     <comp ref="R16">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7EE8</tstamp>
@@ -245,6 +293,9 @@
     <comp ref="R17">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7F6D</tstamp>
@@ -252,6 +303,9 @@
     <comp ref="R18">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7FA2</tstamp>
@@ -259,6 +313,9 @@
     <comp ref="R19">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7FA8</tstamp>
@@ -266,6 +323,9 @@
     <comp ref="R20">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7FD8</tstamp>
@@ -273,6 +333,9 @@
     <comp ref="R21">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7FDE</tstamp>
@@ -280,6 +343,9 @@
     <comp ref="R22">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7FE4</tstamp>
@@ -287,6 +353,9 @@
     <comp ref="R23">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>558F7FEA</tstamp>
@@ -327,28 +396,28 @@
       <tstamp>55904644</tstamp>
     </comp>
     <comp ref="D6">
-      <value>V_bat</value>
+      <value>V bat</value>
       <footprint>frep:LED-0805</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5590476D</tstamp>
     </comp>
     <comp ref="D7">
-      <value>V_load</value>
+      <value>V load</value>
       <footprint>frep:LED-0805</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55904AFA</tstamp>
     </comp>
     <comp ref="D8">
-      <value>i_load</value>
+      <value>I load</value>
       <footprint>frep:LED-0805</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55904BC1</tstamp>
     </comp>
     <comp ref="D9">
-      <value>P_load</value>
+      <value>P load</value>
       <footprint>frep:LED-0805</footprint>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
@@ -371,6 +440,9 @@
     <comp ref="Q3">
       <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">DMG3415UDICT-ND</field>
+      </fields>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591A3CC</tstamp>
@@ -385,6 +457,9 @@
     <comp ref="IC2">
       <value>LM358</value>
       <footprint>frep:SOIC8</footprint>
+      <fields>
+        <field name="DK">LM358MXFSCT-ND</field>
+      </fields>
       <libsource lib="frep" part="OPAMP-DUALU"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591CDC4</tstamp>
@@ -392,6 +467,9 @@
     <comp ref="Q1">
       <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">DMG3415UDICT-ND</field>
+      </fields>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591CFA8</tstamp>
@@ -399,6 +477,9 @@
     <comp ref="Q2">
       <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">DMG3415UDICT-ND</field>
+      </fields>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5591D0A1</tstamp>
@@ -420,6 +501,9 @@
     <comp ref="D3">
       <value>SDM40E20LC</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">SDM40E20LC-7DICT-ND</field>
+      </fields>
       <libsource lib="device" part="DOUBLE_SCH_KCOM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5595767E</tstamp>
@@ -427,6 +511,9 @@
     <comp ref="D4">
       <value>SDM40E20LC</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">SDM40E20LC-7DICT-ND</field>
+      </fields>
       <libsource lib="device" part="DOUBLE_SCH_KCOM"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5595799F</tstamp>
@@ -434,6 +521,9 @@
     <comp ref="D2">
       <value>5.3V Zener</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">568-6472-1-ND</field>
+      </fields>
       <libsource lib="frep" part="ZENER_SOT23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>559758C8</tstamp>
@@ -441,6 +531,9 @@
     <comp ref="D10">
       <value>5.3V Zener</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">568-6472-1-ND</field>
+      </fields>
       <libsource lib="frep" part="ZENER_SOT23"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>55975A6E</tstamp>
@@ -448,6 +541,9 @@
     <comp ref="U2">
       <value>ICL7660</value>
       <footprint>frep:SOIC8</footprint>
+      <fields>
+        <field name="DK">ICL7660AIBAZA-ND</field>
+      </fields>
       <libsource lib="special" part="ICL7660"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5592E8A4</tstamp>
@@ -596,6 +692,9 @@
     <comp ref="R33">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558D637F</tstamp>
@@ -603,6 +702,9 @@
     <comp ref="R32">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558D638F</tstamp>
@@ -610,6 +712,9 @@
     <comp ref="R31">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558D639A</tstamp>
@@ -638,6 +743,9 @@
     <comp ref="R34">
       <value>220R</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">P220CCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558D6850</tstamp>
@@ -680,6 +788,9 @@
     <comp ref="IC3">
       <value>LM358</value>
       <footprint>frep:SOIC8</footprint>
+      <fields>
+        <field name="DK">LM358MXFSCT-ND</field>
+      </fields>
       <libsource lib="frep" part="OPAMP-DUALU"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558D7D93</tstamp>
@@ -715,6 +826,9 @@
     <comp ref="Q4">
       <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">DMG3415UDICT-ND</field>
+      </fields>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558D951F</tstamp>
@@ -750,6 +864,9 @@
     <comp ref="R28">
       <value>0.1R 1%</value>
       <footprint>frep:R1206</footprint>
+      <fields>
+        <field name="DK">P.10AUCT-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>558E4DC9</tstamp>
@@ -778,6 +895,9 @@
     <comp ref="Q5">
       <value>DMG3415U</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">DMG3415UDICT-ND</field>
+      </fields>
       <libsource lib="frep" part="MOSFET-P"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>559012E9</tstamp>
@@ -785,6 +905,9 @@
     <comp ref="VR1">
       <value>VR</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">478-5584-1-ND</field>
+      </fields>
       <libsource lib="device" part="VR"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>55904190</tstamp>
@@ -792,6 +915,9 @@
     <comp ref="VR2">
       <value>VR</value>
       <footprint>frep:R0805</footprint>
+      <fields>
+        <field name="DK">478-5584-1-ND</field>
+      </fields>
       <libsource lib="device" part="VR"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>559041A2</tstamp>
@@ -799,6 +925,9 @@
     <comp ref="D12">
       <value>5.3V Zener</value>
       <footprint>frep:SOT23</footprint>
+      <fields>
+        <field name="DK">568-6472-1-ND</field>
+      </fields>
       <libsource lib="frep" part="ZENER_SOT23"/>
       <sheetpath names="/Arduino/" tstamps="/558C610A/"/>
       <tstamp>559771D6</tstamp>
@@ -812,139 +941,6 @@
     </comp>
   </components>
   <libparts>
-    <libpart lib="device" part="C">
-      <description>Condensateur non polarise</description>
-      <footprints>
-        <fp>SM*</fp>
-        <fp>C?</fp>
-        <fp>C1-1</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="74xx" part="74HC595">
-      <aliases>
-        <alias>74LS596</alias>
-        <alias>74LS595</alias>
-      </aliases>
-      <description>8 bits serial in // out Shift Register 3 State Out</description>
-      <docs>74xx/74HC595.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">74HC595</field>
-      </fields>
-      <pins>
-        <pin num="1" name="QB" type="3state"/>
-        <pin num="2" name="QC" type="3state"/>
-        <pin num="3" name="QD" type="3state"/>
-        <pin num="4" name="QE" type="3state"/>
-        <pin num="5" name="QF" type="3state"/>
-        <pin num="6" name="QG" type="3state"/>
-        <pin num="7" name="QH" type="3state"/>
-        <pin num="8" name="GND" type="power_in"/>
-        <pin num="9" name="~QH" type="output"/>
-        <pin num="10" name="SRCLR" type="input"/>
-        <pin num="11" name="SRCLK" type="input"/>
-        <pin num="12" name="RCLK" type="input"/>
-        <pin num="13" name="G" type="input"/>
-        <pin num="14" name="SER" type="input"/>
-        <pin num="15" name="QA" type="3state"/>
-        <pin num="16" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_1">
-      <description>1 pin</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_1</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_10">
-      <description>Symbole general de connecteur</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_10</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-        <pin num="9" name="P9" type="passive"/>
-        <pin num="10" name="P10" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_2">
-      <description>Symbole general de connecteur</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="PM" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_3X2">
-      <description>Symbole general de connecteur</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_3X2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_6">
-      <description>ymbole general de connecteur</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_6</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_8">
-      <description>Symbole general de connecteur</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_8</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-        <pin num="4" name="P4" type="passive"/>
-        <pin num="5" name="P5" type="passive"/>
-        <pin num="6" name="P6" type="passive"/>
-        <pin num="7" name="P7" type="passive"/>
-        <pin num="8" name="P8" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="CRYSTAL">
       <fields>
         <field name="Reference">X</field>
@@ -1071,21 +1067,107 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="special" part="ICL7660">
-      <description>Voltage converter (pump)</description>
-      <docs>intersil/icl7660.pdf</docs>
+    <libpart lib="conn" part="CONN_1">
+      <description>1 pin</description>
       <fields>
-        <field name="Reference">U</field>
-        <field name="Value">ICL7660</field>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_1</field>
       </fields>
       <pins>
-        <pin num="2" name="CAP+" type="input"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="CAP-" type="input"/>
-        <pin num="5" name="VOUT" type="power_out"/>
-        <pin num="6" name="LV" type="input"/>
-        <pin num="7" name="OSC" type="input"/>
-        <pin num="8" name="V+" type="power_in"/>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_10">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_10</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_2">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_3X2">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_3X2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_6">
+      <description>ymbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_8">
+      <description>Symbole general de connecteur</description>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Condensateur non polarise</description>
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="frep" part="4_x_7Segment">
@@ -1350,8 +1432,61 @@
         <pin num="3" name="K" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="special" part="ICL7660">
+      <description>Voltage converter (pump)</description>
+      <docs>intersil/icl7660.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ICL7660</field>
+      </fields>
+      <pins>
+        <pin num="2" name="CAP+" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="CAP-" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+        <pin num="6" name="LV" type="input"/>
+        <pin num="7" name="OSC" type="input"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="74xx" part="74HC595">
+      <aliases>
+        <alias>74LS596</alias>
+        <alias>74LS595</alias>
+      </aliases>
+      <description>8 bits serial in // out Shift Register 3 State Out</description>
+      <docs>74xx/74HC595.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="QB" type="3state"/>
+        <pin num="2" name="QC" type="3state"/>
+        <pin num="3" name="QD" type="3state"/>
+        <pin num="4" name="QE" type="3state"/>
+        <pin num="5" name="QF" type="3state"/>
+        <pin num="6" name="QG" type="3state"/>
+        <pin num="7" name="QH" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="~QH" type="output"/>
+        <pin num="10" name="SRCLR" type="input"/>
+        <pin num="11" name="SRCLK" type="input"/>
+        <pin num="12" name="RCLK" type="input"/>
+        <pin num="13" name="G" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="QA" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
+    <library logical="special">
+      <uri>/Users/frehnerp/Library/Application Support/kicad/library/special.lib</uri>
+    </library>
+    <library logical="frep">
+      <uri>/Users/frehnerp/Documents/kicad/libraries/frep.lib</uri>
+    </library>
     <library logical="device">
       <uri>/Users/frehnerp/Library/Application Support/kicad/library/device.lib</uri>
     </library>
@@ -1360,12 +1495,6 @@
     </library>
     <library logical="74xx">
       <uri>/Users/frehnerp/Library/Application Support/kicad/library/74xx.lib</uri>
-    </library>
-    <library logical="special">
-      <uri>/Users/frehnerp/Library/Application Support/kicad/library/special.lib</uri>
-    </library>
-    <library logical="frep">
-      <uri>/Users/frehnerp/Documents/kicad/libraries/frep.lib</uri>
     </library>
   </libraries>
   <nets>
