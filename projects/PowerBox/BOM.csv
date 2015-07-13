@@ -1,84 +1,84 @@
-quantity;reference(s);footprint;library;library partname;digikey partnumber;quantity avaible on digikey;description;manufacturer;price per unit;
-1;CON1;frep:USB_Micro;frep;USB-MICRO;;;;;;
-3;S1, S2, S3;frep:Switch_SPDT;frep;SPDT;CKN9565-ND;18261;SWITCH SLIDE SPDT 100MA 12V;C&K Components;0.48000 EUR;
-2;P1, P2;frep:JST-PH-2-THM;conn;CONN_2;455-1704-ND;206624;CONN HEADER PH TOP 2POS 2MM;JST Sales America Inc;0.16000 EUR;
-1;R14;frep:R0805;device;R;P43.0KCCT-ND;54738;RES SMD 43K OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
-1;R13;frep:R0805;device;R;P78.7KCCT-ND;17911;RES SMD 78.7K OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
-2;R15, R12;frep:R0805;device;R;P49.9KCCT-ND;170677;RES SMD 49.9K OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
-1;P6;frep:MountingHole_3mm;conn;CONN_1;;;;;;
-1;P5;frep:MountingHole_3mm;conn;CONN_1;;;;;;
-1;P4;frep:MountingHole_3mm;conn;CONN_1;;;;;;
-1;P3;frep:MountingHole_3mm;conn;CONN_1;;;;;;
-3;IC1, IC2, IC3;frep:SOIC8;frep;OPAMP-DUALU;LM358MXFSCT-ND;25585;IC OPAMP GP 8SOIC;Fairchild Semiconductor;0.43000 EUR;
-1;R1;frep:R0805;device;R;;;;;;
-1;R2;frep:R0805;device;R;;;;;;
-14;R4, R5, R16, R17, R18, R19, R20, R21, R22, R23, R33, R32, R31, R34;frep:R0805;device;R;P220CCT-ND;129023;RES SMD 220 OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
-1;D1;frep:LED-0805;device;LED;;;;;;
-1;D5;frep:LED-0805;device;LED;;;;;;
-1;PB1;frep:Powerboost1000C;frep;PowerBoost;;;;;;
-1;R11;frep:R0805;device;R;P300CCT-ND;100172;RES SMD 300 OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
-1;JP2;frep:Pin_Proto_Straight_1x02;device;JUMPER;;;;;;
-1;SEG1;frep:4digit7segment;frep;4_x_7Segment;;;;;;
-2;U1, U3;frep:SO16;74xx;74HC595;296-14858-1-ND;8552;IC 8BIT SHIFT REG 3ST-OUT 16SOIC;Texas Instruments;0.61000 EUR;
-1;R3;frep:R0805;device;R;;;;;;
-1;JP1;frep:Pin_Proto_Straight_1x03;device;JUMPER3;;;;;;
-1;CON2;frep:USB-A-Jack;frep;USB-A-Jack;;;;;;
-1;R10;frep:R0805;device;R;;;;;;
-1;R9;frep:R0805;device;R;;;;;;
-1;R8;frep:R0805;device;R;;;;;;
-1;R7;frep:R0805;device;R;;;;;;
-1;D6;frep:LED-0805;device;LED;;;;;;
-1;D7;frep:LED-0805;device;LED;;;;;;
-1;D8;frep:LED-0805;device;LED;;;;;;
-1;D9;frep:LED-0805;device;LED;;;;;;
-1;C1;frep:C0805;device;C;;;;;;
-1;C4;frep:C0805;device;C;;;;;;
-5;Q3, Q1, Q2, Q4, Q5;frep:SOT23;frep;MOSFET-P;DMG3415UDICT-ND;21025;MOSFET P-CH 20V 4A SOT-23;Diodes Incorporated;0.48000 EUR;
-1;R6;frep:R0805;device;R;;;;;;
-1;C2;frep:C0805;device;C;;;;;;
-1;C3;frep:C0805;device;C;;;;;;
-2;D3, D4;frep:SOT23;device;DOUBLE_SCH_KCOM;SDM40E20LC-7DICT-ND;3022;DIODE ARRAY SCHOTTKY 20V SOT23-3;Diodes Incorporated;0.72000 EUR;
-3;D2, D10, D12;frep:SOT23;frep;ZENER_SOT23;568-6472-1-ND;7638;DIODE ZENER 5.3V 250MW SOT23;NXP Semiconductors;0.46000 EUR;
-1;U2;frep:SOIC8;special;ICL7660;ICL7660AIBAZA-ND;3534;IC REG SWTCHD CAP INV 45MA 8SOIC;Intersil;1.79000 EUR;
-1;U6;frep:TQFP44;frep;ATMEGA32U4;;;;;;
-1;X1;frep:HC49UP;device;CRYSTAL;;;;;;
-1;C5;frep:C0805;device;C;;;;;;
-1;C7;frep:C0805;device;C;;;;;;
-1;R26;frep:R0805;device;R;;;;;;
-1;P11;frep:Pin_Header_Straight_1x10;conn;CONN_10;;;;;;
-1;P12;frep:Pin_Header_Straight_1x08;conn;CONN_8;;;;;;
-1;P13;frep:Pin_Header_Straight_1x08;conn;CONN_8;;;;;;
-1;P14;frep:Pin_Header_Straight_1x06;conn;CONN_6;;;;;;
-1;R29;frep:R0805;device;R;;;;;;
-1;R30;frep:R0805;device;R;;;;;;
-1;C11;frep:C0805;device;C;;;;;;
-1;R27;frep:R0805;device;R;;;;;;
-1;D11;frep:Diode-MiniMELF_Handsoldering;device;DIODE;;;;;;
-1;S4;frep:TACTILE-PTH;frep;TAC_SWITCH;;;;;;
-1;L1;frep:R0805;device;INDUCTOR;;;;;;
-1;C16;frep:C0805;device;C;;;;;;
-1;C18;frep:C0805;device;C;;;;;;
-1;R35;frep:R0805;device;R;;;;;;
-1;P7;frep:Pin_Proto_Straight_2x03;conn;CONN_3X2;;;;;;
-1;D13;frep:LED-0805;device;LED;;;;;;
-1;D14;frep:LED-0805;device;LED;;;;;;
-1;D15;frep:LED-0805;device;LED;;;;;;
-1;D16;frep:LED-0805;device;LED;;;;;;
-1;S5;frep:TACTILE-PTH;frep;TAC_SWITCH;;;;;;
-1;R36;frep:R0805;device;R;;;;;;
-1;CON3;frep:Vertical_USB_Mini_B;frep;USB-MINI-B-Vert;;;;;;
-1;F1;frep:C1812;device;FUSE;;;;;;
-1;U5;frep:SOT23;frep;AP7333;;;;;;
-1;C8;frep:C0805;device;C;;;;;;
-1;C10;frep:C0805;device;C;;;;;;
-1;C6;frep:C0805;device;C;;;;;;
-1;C9;frep:C0805;device;C;;;;;;
-1;C12;frep:C0805;device;C;;;;;;
-1;R25;frep:R0805;device;R;;;;;;
-1;R24;frep:R0805;device;R;;;;;;
-1;R28;frep:R1206;device;R;P.10AUCT-ND;21866;RES SMD 0.1 OHM 1% 1W 1206;Panasonic Electronic Components;0.71000 EUR;
-1;JP5;frep:Pin_Proto_Straight_1x02;device;JUMPER;;;;;;
-1;JP4;frep:Pin_Proto_Straight_1x02;device;JUMPER;;;;;;
-1;U4;frep:SOIC8;frep;INA219;;;;;;
-2;VR1, VR2;frep:R0805;device;VR;478-5584-1-ND;7336;VARISTOR 10.8V 40A 0805;AVX Corporation;0.59000 EUR;
-1;R37;frep:R0805;device;R;;;;;;
+quantity,reference(s),footprint,library,library partname,digikey partnumber,quantity avaible on digikey,description,manufacturer,price per unit,
+1,CON1,frep:USB_Micro,frep,USB-MICRO,,,,,,
+3,S1 S2 S3,frep:Switch_SPDT,frep,SPDT,CKN9565-ND,18261,SWITCH SLIDE SPDT 100MA 12V,C&K Components,0.48000 EUR,
+2,P1 P2,frep:JST-PH-2-THM,conn,CONN_2,455-1704-ND,206624,CONN HEADER PH TOP 2POS 2MM,JST Sales America Inc,0.16000 EUR,
+1,R14,frep:R0805,device,R,P43.0KCCT-ND,54738,RES SMD 43K OHM 1% 1/8W 0805,Panasonic Electronic Components,0.10000 EUR,
+1,R13,frep:R0805,device,R,P78.7KCCT-ND,17911,RES SMD 78.7K OHM 1% 1/8W 0805,Panasonic Electronic Components,0.10000 EUR,
+2,R15 R12,frep:R0805,device,R,P49.9KCCT-ND,170577,RES SMD 49.9K OHM 1% 1/8W 0805,Panasonic Electronic Components,0.10000 EUR,
+1,P6,frep:MountingHole_3mm,conn,CONN_1,,,,,,
+1,P5,frep:MountingHole_3mm,conn,CONN_1,,,,,,
+1,P4,frep:MountingHole_3mm,conn,CONN_1,,,,,,
+1,P3,frep:MountingHole_3mm,conn,CONN_1,,,,,,
+3,IC1 IC2 IC3,frep:SOIC8,frep,OPAMP-DUALU,LM358MXFSCT-ND,25585,IC OPAMP GP 8SOIC,Fairchild Semiconductor,0.43000 EUR,
+1,R1,frep:R0805,device,R,,,,,,
+1,R2,frep:R0805,device,R,,,,,,
+14,R4 R5 R16 R17 R18 R19 R20 R21 R22 R23 R33 R32 R31 R34,frep:R0805,device,R,P220CCT-ND,129023,RES SMD 220 OHM 1% 1/8W 0805,Panasonic Electronic Components,0.10000 EUR,
+1,D1,frep:LED-0805,device,LED,,,,,,
+1,D5,frep:LED-0805,device,LED,,,,,,
+1,PB1,frep:Powerboost1000C,frep,PowerBoost,,,,,,
+1,R11,frep:R0805,device,R,P300CCT-ND,100172,RES SMD 300 OHM 1% 1/8W 0805,Panasonic Electronic Components,0.10000 EUR,
+1,JP2,frep:Pin_Proto_Straight_1x02,device,JUMPER,,,,,,
+1,SEG1,frep:4digit7segment,frep,4_x_7Segment,,,,,,
+2,U1 U3,frep:SO16,74xx,74HC595,296-14858-1-ND,8552,IC 8BIT SHIFT REG 3ST-OUT 16SOIC,Texas Instruments,0.61000 EUR,
+1,R3,frep:R0805,device,R,,,,,,
+1,JP1,frep:Pin_Proto_Straight_1x03,device,JUMPER3,,,,,,
+1,CON2,frep:USB-A-Jack,frep,USB-A-Jack,,,,,,
+1,R10,frep:R0805,device,R,,,,,,
+1,R9,frep:R0805,device,R,,,,,,
+1,R8,frep:R0805,device,R,,,,,,
+1,R7,frep:R0805,device,R,,,,,,
+1,D6,frep:LED-0805,device,LED,,,,,,
+1,D7,frep:LED-0805,device,LED,,,,,,
+1,D8,frep:LED-0805,device,LED,,,,,,
+1,D9,frep:LED-0805,device,LED,,,,,,
+1,C1,frep:C0805,device,C,,,,,,
+1,C4,frep:C0805,device,C,,,,,,
+5,Q3 Q1 Q2 Q4 Q5,frep:SOT23,frep,MOSFET-P,DMG3415UDICT-ND,20974,MOSFET P-CH 20V 4A SOT-23,Diodes Incorporated,0.48000 EUR,
+1,R6,frep:R0805,device,R,,,,,,
+1,C2,frep:C0805,device,C,,,,,,
+1,C3,frep:C0805,device,C,,,,,,
+2,D3 D4,frep:SOT23,device,DOUBLE_SCH_KCOM,SDM40E20LC-7DICT-ND,3022,DIODE ARRAY SCHOTTKY 20V SOT23-3,Diodes Incorporated,0.72000 EUR,
+3,D2 D10 D12,frep:SOT23,frep,ZENER_SOT23,568-6472-1-ND,7638,DIODE ZENER 5.3V 250MW SOT23,NXP Semiconductors,0.46000 EUR,
+1,U2,frep:SOIC8,special,ICL7660,ICL7660AIBAZA-ND,3534,IC REG SWTCHD CAP INV 45MA 8SOIC,Intersil,1.79000 EUR,
+1,U6,frep:TQFP44,frep,ATMEGA32U4,,,,,,
+1,X1,frep:HC49UP,device,CRYSTAL,,,,,,
+1,C5,frep:C0805,device,C,,,,,,
+1,C7,frep:C0805,device,C,,,,,,
+1,R26,frep:R0805,device,R,,,,,,
+1,P11,frep:Pin_Header_Straight_1x10,conn,CONN_10,,,,,,
+1,P12,frep:Pin_Header_Straight_1x08,conn,CONN_8,,,,,,
+1,P13,frep:Pin_Header_Straight_1x08,conn,CONN_8,,,,,,
+1,P14,frep:Pin_Header_Straight_1x06,conn,CONN_6,,,,,,
+1,R29,frep:R0805,device,R,,,,,,
+1,R30,frep:R0805,device,R,,,,,,
+1,C11,frep:C0805,device,C,,,,,,
+1,R27,frep:R0805,device,R,,,,,,
+1,D11,frep:Diode-MiniMELF_Handsoldering,device,DIODE,,,,,,
+1,S4,frep:TACTILE-PTH,frep,TAC_SWITCH,,,,,,
+1,L1,frep:R0805,device,INDUCTOR,,,,,,
+1,C16,frep:C0805,device,C,,,,,,
+1,C18,frep:C0805,device,C,,,,,,
+1,R35,frep:R0805,device,R,,,,,,
+1,P7,frep:Pin_Proto_Straight_2x03,conn,CONN_3X2,,,,,,
+1,D13,frep:LED-0805,device,LED,,,,,,
+1,D14,frep:LED-0805,device,LED,,,,,,
+1,D15,frep:LED-0805,device,LED,,,,,,
+1,D16,frep:LED-0805,device,LED,,,,,,
+1,S5,frep:TACTILE-PTH,frep,TAC_SWITCH,,,,,,
+1,R36,frep:R0805,device,R,,,,,,
+1,CON3,frep:Vertical_USB_Mini_B,frep,USB-MINI-B-Vert,,,,,,
+1,F1,frep:C1812,device,FUSE,,,,,,
+1,U5,frep:SOT23,frep,AP7333,,,,,,
+1,C8,frep:C0805,device,C,,,,,,
+1,C10,frep:C0805,device,C,,,,,,
+1,C6,frep:C0805,device,C,,,,,,
+1,C9,frep:C0805,device,C,,,,,,
+1,C12,frep:C0805,device,C,,,,,,
+1,R25,frep:R0805,device,R,,,,,,
+1,R24,frep:R0805,device,R,,,,,,
+1,R28,frep:R1206,device,R,P.10AUCT-ND,21866,RES SMD 0.1 OHM 1% 1W 1206,Panasonic Electronic Components,0.71000 EUR,
+1,JP5,frep:Pin_Proto_Straight_1x02,device,JUMPER,,,,,,
+1,JP4,frep:Pin_Proto_Straight_1x02,device,JUMPER,,,,,,
+1,U4,frep:SOIC8,frep,INA219,,,,,,
+2,VR1 VR2,frep:R0805,device,VR,478-5584-1-ND,7336,VARISTOR 10.8V 40A 0805,AVX Corporation,0.59000 EUR,
+1,R37,frep:R0805,device,R,,,,,,

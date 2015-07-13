@@ -80,6 +80,7 @@ end
 class Analyser
     def initialize(debug)
         @debug = debug
+        @separator = ","
         @partinfo = PartInfoGetter.new
         @partAlreadyExists = false
         @partHasDigikeyNumber = false
@@ -109,7 +110,7 @@ class Analyser
                                     # component already exist in list, don't create a new one!
                                     # just modify quantity and references
                                     entry.quantity = entry.quantity + 1
-                                    entry.reference = entry.reference + ", " + component.attributes['ref']
+                                    entry.reference = entry.reference + " " + component.attributes['ref']
                                     @partAlreadyExists = true
                                 end
                             end
@@ -143,13 +144,13 @@ class Analyser
     end
     
     def writeEntries()
-        @csv_file.write "quantity;reference(s);footprint;library;library partname;digikey partnumber;quantity avaible on digikey;description;manufacturer;price per unit;"
+        @csv_file.write "quantity#{@separator}reference(s)#{@separator}footprint#{@separator}library#{@separator}library partname#{@separator}digikey partnumber#{@separator}quantity avaible on digikey#{@separator}description#{@separator}manufacturer#{@separator}price per unit#{@separator}"
         @entries.each do |entry|
-            @csv_file.write "\n" + entry.quantity.to_s + ";" + entry.reference + ";" + entry.footprint + ";" + entry.library + ";" + entry.libraryPart + ";" + entry.dkPartnumber + ";" + entry.qtyDK + ";" + entry.description + ";" + entry.manufacturer + ";"
+            @csv_file.write "\n" + entry.quantity.to_s + @separator + entry.reference + @separator + entry.footprint + @separator + entry.library + @separator + entry.libraryPart + @separator + entry.dkPartnumber + @separator + entry.qtyDK + @separator + entry.description + @separator + entry.manufacturer + @separator
             if(entry.dkInfoAvailable)
                 @csv_file.write entry.prices[0][1] + " " + entry.currency
             end
-            @csv_file.write ";"
+            @csv_file.write @separator
         end
     end
     
