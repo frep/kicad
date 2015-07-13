@@ -1,8 +1,7 @@
 quantity;reference(s);footprint;library;library partname;digikey partnumber;quantity avaible on digikey;description;manufacturer;price per unit;
-
 1;CON1;frep:USB_Micro;frep;USB-MICRO;;;;;;;;;;
-3;S1, S2, S3;frep:Switch_SPDT;frep;SPDT;CKN9565-ND;18777;SWITCH SLIDE SPDT 100MA 12V;C&K Components;0.48000 EUR;
-2;P1, P2;frep:JST-PH-2-THM;conn;CONN_2;455-1704-ND;206754;CONN HEADER PH TOP 2POS 2MM;JST Sales America Inc;0.16000 EUR;
+3;S1, S2, S3;frep:Switch_SPDT;frep;SPDT;CKN9565-ND;18261;SWITCH SLIDE SPDT 100MA 12V;C&K Components;0.48000 EUR;
+2;P1, P2;frep:JST-PH-2-THM;conn;CONN_2;455-1704-ND;206624;CONN HEADER PH TOP 2POS 2MM;JST Sales America Inc;0.16000 EUR;
 1;R14;frep:R0805;device;R;P43.0KCCT-ND;54738;RES SMD 43K OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
 1;R13;frep:R0805;device;R;P78.7KCCT-ND;17911;RES SMD 78.7K OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
 2;R15, R12;frep:R0805;device;R;P49.9KCCT-ND;170677;RES SMD 49.9K OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
@@ -13,7 +12,7 @@ quantity;reference(s);footprint;library;library partname;digikey partnumber;quan
 3;IC1, IC2, IC3;frep:SOIC8;frep;OPAMP-DUALU;LM358MXFSCT-ND;25585;IC OPAMP GP 8SOIC;Fairchild Semiconductor;0.43000 EUR;
 1;R1;frep:R0805;device;R;;;;;;;;;;
 1;R2;frep:R0805;device;R;;;;;;;;;;
-14;R4, R5, R16, R17, R18, R19, R20, R21, R22, R23, R33, R32, R31, R34;frep:R0805;device;R;P220CCT-ND;129127;RES SMD 220 OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
+14;R4, R5, R16, R17, R18, R19, R20, R21, R22, R23, R33, R32, R31, R34;frep:R0805;device;R;P220CCT-ND;129123;RES SMD 220 OHM 1% 1/8W 0805;Panasonic Electronic Components;0.10000 EUR;
 1;D1;frep:LED-0805;device;LED;;;;;;;;;;
 1;D5;frep:LED-0805;device;LED;;;;;;;;;;
 1;PB1;frep:Powerboost1000C;frep;PowerBoost;;;;;;;;;;
