@@ -65,10 +65,10 @@ class Entry
         @footprint = ""
         @library = ""
         @libraryPart = ""
-        @dkPartnumber = ";"
-        @description = ";"
-        @qtyDK = ";"
-        @manufacturer = ";"
+        @dkPartnumber = ""
+        @description = ""
+        @qtyDK = ""
+        @manufacturer = ""
         @prices = []
         @currency = "EUR"
         @dkInfoAvailable = false
