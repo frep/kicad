@@ -143,7 +143,7 @@ class Analyser
     end
     
     def writeEntries()
-        @csv_file.write "quantity;reference(s);footprint;library;library partname;digikey partnumber;quantity avaible on digikey;description;manufacturer;price per unit;\n"
+        @csv_file.write "quantity;reference(s);footprint;library;library partname;digikey partnumber;quantity avaible on digikey;description;manufacturer;price per unit;"
         @entries.each do |entry|
             @csv_file.write "\n" + entry.quantity.to_s + ";" + entry.reference + ";" + entry.footprint + ";" + entry.library + ";" + entry.libraryPart + ";" + entry.dkPartnumber + ";" + entry.qtyDK + ";" + entry.description + ";" + entry.manufacturer + ";"
             if(entry.dkInfoAvailable)
@@ -156,7 +156,7 @@ class Analyser
 end
 
 if (ARGV.length != 2)
-	puts "Aufruf: xml2csv.rb <Inputfile> <Outputfile>"
+	puts "Aufruf: bom2csv.rb <Inputfile> <Outputfile>"
 	exit
 end
 
