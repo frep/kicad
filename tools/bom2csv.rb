@@ -144,9 +144,9 @@ class Analyser
     end
     
     def writeEntries()
-        @csv_file.write "quantity#{@separator}reference(s)#{@separator}footprint#{@separator}library#{@separator}library partname#{@separator}digikey partnumber#{@separator}quantity avaible on digikey#{@separator}description#{@separator}manufacturer#{@separator}price per unit#{@separator}"
+        @csv_file.write "quantity#{@separator}reference(s)#{@separator}value#{@separator}footprint#{@separator}library#{@separator}library partname#{@separator}digikey partnumber#{@separator}quantity avaible on digikey#{@separator}description#{@separator}manufacturer#{@separator}price per unit#{@separator}"
         @entries.each do |entry|
-            @csv_file.write "\n" + entry.quantity.to_s + @separator + entry.reference + @separator + entry.footprint + @separator + entry.library + @separator + entry.libraryPart + @separator + entry.dkPartnumber + @separator + entry.qtyDK + @separator + entry.description + @separator + entry.manufacturer + @separator
+            @csv_file.write "\n" + entry.quantity.to_s + @separator + entry.reference + @separator + entry.value + @separator + entry.footprint + @separator + entry.library + @separator + entry.libraryPart + @separator + entry.dkPartnumber + @separator + entry.qtyDK + @separator + entry.description + @separator + entry.manufacturer + @separator
             if(entry.dkInfoAvailable)
                 @csv_file.write entry.prices[0][1] + " " + entry.currency
             end
