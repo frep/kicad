@@ -355,6 +355,11 @@ D i2c zero-drift bidirectional current monitor
 F doc/INA219.pdf
 $ENDCMP
 #
+$CMP INA219_SOT23_8
+D i2c zero-drift bidirectional current monitor
+F doc/INA219.pdf
+$ENDCMP
+#
 $CMP INDUCTOR
 D inductor
 $ENDCMP

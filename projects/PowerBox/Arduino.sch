@@ -1092,17 +1092,6 @@ Text HLabel 1350 1400 0    60   Output ~ 0
 Clock
 Text HLabel 1350 1550 0    60   Output ~ 0
 Latch
-$Comp
-L INA219 U4
-U 1 1 558FD6AF
-P 4250 6700
-F 0 "U4" H 4250 7000 60  0000 C CNN
-F 1 "INA219" H 4250 6400 60  0000 C CNN
-F 2 "frep:SOIC8" H 4250 6500 60  0001 C CNN
-F 3 "" H 4250 6500 60  0000 C CNN
-	1    4250 6700
-	1    0    0    -1  
-$EndComp
 Text Notes 4900 2725 0    60   ~ 0
 transistor is conducting, when Vgs < 0
 Text GLabel 4000 4950 0    47   Input ~ 0
@@ -1387,4 +1376,15 @@ Wire Bus Line
 	900  7600 900  5700
 Text GLabel 2450 1850 2    47   Input ~ 0
 A0
+$Comp
+L INA219_SOT23_8 U4
+U 1 1 55B14D79
+P 4250 6700
+F 0 "U4" H 4250 7000 60  0000 C CNN
+F 1 "INA219_SOT23_8" H 4250 6400 60  0000 C CNN
+F 2 "frep:SOT-23-8" H 4250 6500 60  0001 C CNN
+F 3 "" H 4250 6500 60  0000 C CNN
+	1    4250 6700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
