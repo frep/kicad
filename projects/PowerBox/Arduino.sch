@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title "Power Box"
-Date "2015-07-02"
+Date "2015-07-24"
 Rev "A"
 Comp ""
 Comment1 ""
