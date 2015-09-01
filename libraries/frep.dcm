@@ -410,6 +410,16 @@ K LSM9DS0 Accelerometer Gyro Magnetometer
 F doc/adafruit-lsm9ds0-breakout.pdf
 $ENDCMP
 #
+$CMP LT1370
+D Set up/step down switching regulator
+F doc/LT1370.pdf
+$ENDCMP
+#
+$CMP LT1373
+D Set up/step down switching regulator
+F regulator/lt1373.pdf
+$ENDCMP
+#
 $CMP LT3080
 D Linear voltage regulator 1A
 F doc/LT3080.pdf

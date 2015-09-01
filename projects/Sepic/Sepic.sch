@@ -29,6 +29,8 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:frep
+LIBS:Sepic-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,4 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L LT1370 U?
+U 1 1 55E5BDF9
+P 5300 2900
+F 0 "U?" H 5900 3400 60  0000 C CNN
+F 1 "LT1370" H 4800 3400 60  0000 C CNN
+F 2 "" H 5300 2900 60  0000 C CNN
+F 3 "" H 5300 2900 60  0000 C CNN
+	1    5300 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
