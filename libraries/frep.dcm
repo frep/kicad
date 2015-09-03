@@ -369,6 +369,11 @@ D voltage reference (2.048V)
 F doc/isl21070.pdf
 $ENDCMP
 #
+$CMP InductorsCoupled
+D Coupled inductors
+F doc/InductorsCoupled.pdf
+$ENDCMP
+#
 $CMP JUMPER
 D jumper
 $ENDCMP

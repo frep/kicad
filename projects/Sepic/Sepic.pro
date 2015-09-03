@@ -1,4 +1,4 @@
-update=Dienstag, 01. September 2015 16:41:14
+update=Dienstag, 01. September 2015 21:40:07
 version=1
 last_client=kicad
 [cvpcb]
@@ -47,7 +47,7 @@ LibName16=valves
 version=1
 [eeschema]
 version=1
-LibDir=/Users/frehnerp/Documents/kicad/libraries
+LibDir=/Users/frehnerp/Documents/kicad/libraries;/Users/frehnerp/Dropbox/kicad/libraries
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -80,3 +80,6 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=frep
+LibName32=adafruit
+LibName33=SparkFun
+LibName34=wayne_and_layne_kicad_symbols
