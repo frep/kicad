@@ -1,4 +1,4 @@
-update=Dienstag, 01. September 2015 21:40:07
+update=Freitag, 04. September 2015 09:51:26
 version=1
 last_client=kicad
 [cvpcb]
@@ -81,5 +81,3 @@ LibName29=contrib
 LibName30=valves
 LibName31=frep
 LibName32=adafruit
-LibName33=SparkFun
-LibName34=wayne_and_layne_kicad_symbols
