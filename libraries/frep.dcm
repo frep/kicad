@@ -546,6 +546,11 @@ D I2C GPIO expander
 F doc/PCF8574.pdf
 $ENDCMP
 #
+$CMP POT
+D Potentionmetre
+K R
+$ENDCMP
+#
 $CMP PowerBoost
 D Adafruit PowerBoost 1000 breakout board
 K Adafruit breakout board
