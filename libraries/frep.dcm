@@ -517,6 +517,11 @@ K POWER REGULATOR
 F doc/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP NODE_MCU
+D NodeMcu (ESP8266)
+K NodeMcu Esp8266 based microcontroller
+$ENDCMP
+#
 $CMP Neopixel
 D NEOPIXEL: chainable rgb led
 K RGB LED
@@ -609,6 +614,11 @@ F doc/USB_A_Conn_stacked.pdf
 $ENDCMP
 #
 $CMP USB-MICRO
+D usb mini connector
+K CONN
+$ENDCMP
+#
+$CMP USB-MICRO-LOAD
 D usb mini connector
 K CONN
 $ENDCMP

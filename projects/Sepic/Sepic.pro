@@ -1,4 +1,4 @@
-update=Freitag, 04. September 2015 09:51:26
+update=Dienstag, 05. Januar 2016 'u12' 20:12:41
 version=1
 last_client=kicad
 [cvpcb]
@@ -81,3 +81,13 @@ LibName29=contrib
 LibName30=valves
 LibName31=frep
 LibName32=adafruit
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
