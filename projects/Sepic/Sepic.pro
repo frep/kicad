@@ -1,4 +1,4 @@
-update=Dienstag, 05. Januar 2016 'u12' 20:12:41
+update=Dienstag, 12. Januar 2016 'u37' 20:37:48
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/Users/frehnerp/Documents/kicad/libraries;/Users/frehnerp/Dropbox/kicad/libraries
@@ -91,3 +89,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1

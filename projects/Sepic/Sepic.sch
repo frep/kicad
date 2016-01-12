@@ -38,13 +38,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "SEPIC Module"
-Date "2015-09-03"
+Date "2016-01-12"
 Rev "A"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "   output-voltage can be defined by R2, or (dig.) Potentiometer"
+Comment2 "   breadboard - friendly (some unused extra pins and doubled components)"
+Comment3 "   single-sided board"
+Comment4 "Sepic based on the LT1370"
 $EndDescr
 $Comp
 L CP1 C1
@@ -157,7 +157,7 @@ U 1 1 55E5C565
 P 2450 3600
 F 0 "P3" V 2400 3600 40  0000 C CNN
 F 1 "JST_In" V 2500 3600 40  0000 C CNN
-F 2 "frep:JST-PH-2-THM-RA" H 2450 3600 60  0001 C CNN
+F 2 "frep:JST-PH-2-THM" H 2450 3600 60  0001 C CNN
 F 3 "" H 2450 3600 60  0000 C CNN
 F 4 "455-1704-ND" V 2450 3600 60  0001 C CNN "DK"
 	1    2450 3600
@@ -362,23 +362,23 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG09
 U 1 1 55E95355
-P 4100 5200
-F 0 "#FLG09" H 4100 5295 30  0001 C CNN
-F 1 "PWR_FLAG" H 4100 5380 30  0000 C CNN
-F 2 "" H 4100 5200 60  0000 C CNN
-F 3 "" H 4100 5200 60  0000 C CNN
-	1    4100 5200
+P 7750 5200
+F 0 "#FLG09" H 7750 5295 30  0001 C CNN
+F 1 "PWR_FLAG" H 7750 5380 30  0000 C CNN
+F 2 "" H 7750 5200 60  0000 C CNN
+F 3 "" H 7750 5200 60  0000 C CNN
+	1    7750 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 55E954C8
-P 4100 5200
-F 0 "#PWR010" H 4100 5200 30  0001 C CNN
-F 1 "GND" H 4100 5130 30  0001 C CNN
-F 2 "" H 4100 5200 60  0000 C CNN
-F 3 "" H 4100 5200 60  0000 C CNN
-	1    4100 5200
+P 7750 5200
+F 0 "#PWR010" H 7750 5200 30  0001 C CNN
+F 1 "GND" H 7750 5130 30  0001 C CNN
+F 2 "" H 7750 5200 60  0000 C CNN
+F 3 "" H 7750 5200 60  0000 C CNN
+	1    7750 5200
 	1    0    0    -1  
 $EndComp
 Connection ~ 7250 3350
@@ -392,8 +392,8 @@ Wire Notes Line
 	3750 4150 3750 2900
 Wire Notes Line
 	3750 2900 4250 2900
-Text Notes 3600 4550 0    60   ~ 0
-Enable signal (S/S) \nfrom input with \nsolder jumper or \nexternal from P4
+Text Notes 3550 5250 0    60   ~ 0
+Enable signal (S/S) \nfrom input with \nsolder jumper or \nexternal from P32
 Text Notes 7500 4750 0    60   ~ 0
 R2 can be \nreplaced by \nan external \nresistor or \n(dig.) pot.
 $Comp
@@ -432,7 +432,6 @@ F 3 "" H 7700 3850 60  0000 C CNN
 	1    7700 3850
 	0    -1   1    0   
 $EndComp
-NoConn ~ 7700 4100
 Wire Wire Line
 	7700 3350 7700 3600
 Wire Notes Line
@@ -516,9 +515,7 @@ Wire Notes Line
 Wire Notes Line
 	3950 2300 3150 2300
 Text Notes 3250 2250 0    60   ~ 0
-Replace 0R\nresistor with\nshunt resistor\nfor external\npower meas.
-Text Notes 8450 2250 0    60   ~ 0
-Replace 0R\nresistor with\nshunt resistor\nfor external\npower meas.
+Place Jumper \nor external\nshunt resistor\nfor power meas.
 Wire Notes Line
 	8300 2300 8300 2850
 Wire Notes Line
@@ -541,20 +538,9 @@ Wire Wire Line
 Connection ~ 2800 3900
 $Comp
 L GND #PWR012
-U 1 1 568C1F8E
-P 1000 3300
-F 0 "#PWR012" H 1000 3300 30  0001 C CNN
-F 1 "GND" H 1000 3230 30  0001 C CNN
-F 2 "" H 1000 3300 60  0000 C CNN
-F 3 "" H 1000 3300 60  0000 C CNN
-	1    1000 3300
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR013
 U 1 1 568C2258
 P 1000 3450
-F 0 "#PWR013" H 1000 3450 30  0001 C CNN
+F 0 "#PWR012" H 1000 3450 30  0001 C CNN
 F 1 "GND" H 1000 3380 30  0001 C CNN
 F 2 "" H 1000 3450 60  0000 C CNN
 F 3 "" H 1000 3450 60  0000 C CNN
@@ -562,25 +548,14 @@ F 3 "" H 1000 3450 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR014
+L GND #PWR013
 U 1 1 568C22C6
 P 1000 3750
-F 0 "#PWR014" H 1000 3750 30  0001 C CNN
+F 0 "#PWR013" H 1000 3750 30  0001 C CNN
 F 1 "GND" H 1000 3680 30  0001 C CNN
 F 2 "" H 1000 3750 60  0000 C CNN
 F 3 "" H 1000 3750 60  0000 C CNN
 	1    1000 3750
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR015
-U 1 1 568C2334
-P 1000 3900
-F 0 "#PWR015" H 1000 3900 30  0001 C CNN
-F 1 "GND" H 1000 3830 30  0001 C CNN
-F 2 "" H 1000 3900 60  0000 C CNN
-F 3 "" H 1000 3900 60  0000 C CNN
-	1    1000 3900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -594,20 +569,8 @@ F 3 "" H 4100 3850 60  0000 C CNN
 	1    4100 3850
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 4100 4100
 Wire Wire Line
 	3900 3850 4300 3850
-$Comp
-L USB-MICRO-LOAD CON1
-U 1 1 5690024D
-P 1550 3600
-F 0 "CON1" H 1300 4050 60  0000 C CNN
-F 1 "USB-MICRO-LOAD" H 1550 3100 60  0000 C CNN
-F 2 "frep:USB_Micro_Load" H 1550 3600 60  0001 C CNN
-F 3 "" H 1550 3600 60  0000 C CNN
-	1    1550 3600
-	-1   0    0    -1  
-$EndComp
 $Comp
 L CONN_1 P7
 U 1 1 56901F77
@@ -739,7 +702,6 @@ F 3 "" H 3800 3850 60  0000 C CNN
 	1    3800 3850
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3800 4100
 Wire Wire Line
 	4100 3600 3800 3600
 Connection ~ 4200 3850
@@ -878,7 +840,6 @@ Wire Wire Line
 	7700 3600 8000 3600
 Connection ~ 7700 3600
 Connection ~ 7550 3850
-NoConn ~ 8000 4100
 $Comp
 L CONN_3X2 P30
 U 1 1 569068CA
@@ -916,13 +877,13 @@ NoConn ~ 6500 2200
 $Comp
 L CONN_2 P32
 U 1 1 5690721F
-P 7150 2100
-F 0 "P32" V 7100 2100 40  0000 C CNN
-F 1 "CONN_2" V 7200 2100 40  0000 C CNN
-F 2 "frep:Pin_Proto_Straight_1x02" H 7150 2100 60  0001 C CNN
-F 3 "" H 7150 2100 60  0000 C CNN
-	1    7150 2100
-	1    0    0    -1  
+P 4000 4650
+F 0 "P32" V 3950 4650 40  0000 C CNN
+F 1 "CONN_2" V 4050 4650 40  0000 C CNN
+F 2 "frep:Pin_Proto_Straight_1x02" H 4000 4650 60  0001 C CNN
+F 3 "" H 4000 4650 60  0000 C CNN
+	1    4000 4650
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_2 P33
@@ -935,8 +896,32 @@ F 3 "" H 7850 2100 60  0000 C CNN
 	1    7850 2100
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6800 2000
-NoConn ~ 6800 2200
 NoConn ~ 7500 2000
 NoConn ~ 7500 2200
+Wire Wire Line
+	7700 4100 8000 4100
+Wire Wire Line
+	3800 4100 4100 4100
+Wire Wire Line
+	4100 4100 4100 4300
+Wire Wire Line
+	3900 4300 3800 4300
+Wire Wire Line
+	3800 4300 3800 4100
+$Comp
+L USB-MINI-B-Vert CON1
+U 1 1 5692AEAB
+P 1550 3600
+F 0 "CON1" H 1300 4050 60  0000 C CNN
+F 1 "USB-MINI-B-Vert" H 1500 3100 60  0000 C CNN
+F 2 "frep:Vertical_USB_Mini_B" H 1550 3600 60  0001 C CNN
+F 3 "" H 1550 3600 60  0000 C CNN
+	1    1550 3600
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 2100 3450
+NoConn ~ 2100 3600
+NoConn ~ 2100 3750
+Text Notes 8400 2250 0    60   ~ 0
+Place Jumper \nor external\nshunt resistor\nfor power meas.
 $EndSCHEMATC
