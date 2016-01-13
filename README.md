@@ -30,3 +30,7 @@ Generation of gerber files
 
 *I worked for me using 2 sided PCBs.*
 *Hope it helps*
+
+![alt text](KicadGerberSettings1.png "Gerber Settings")
+
+![alt text](KicadGerberSettings2.png "Drill file Settings")
