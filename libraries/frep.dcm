@@ -325,6 +325,11 @@ D Interrupteur double
 K switch
 $ENDCMP
 #
+$CMP ESP-12
+D esp8266 - 12 module
+K esp8266
+$ENDCMP
+#
 $CMP FT232RL
 D USB to serial interface
 K USB
