@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:EspDevBoard-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -68,7 +69,7 @@ F 3 "DOCUMENTATION" H 7800 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INA219_SOT23_8 U6
+L INA219_SOT23_8-RESCUE-EspDevBoard U6
 U 1 1 56957ADD
 P 8600 4400
 F 0 "U6" H 8600 4700 60  0000 C CNN
@@ -79,7 +80,7 @@ F 3 "" H 8600 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INA219_SOT23_8 U7
+L INA219_SOT23_8-RESCUE-EspDevBoard U7
 U 1 1 56957B3E
 P 8600 5600
 F 0 "U7" H 8600 5900 60  0000 C CNN
