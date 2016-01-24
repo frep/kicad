@@ -1,4 +1,4 @@
-update=Samstag, 23. Januar 2016 'u25' 21:25:23
+update=Sonntag, 24. Januar 2016 'u16' 10:16:21
 version=1
 last_client=kicad
 [cvpcb]
@@ -81,3 +81,4 @@ LibName29=atmel
 LibName30=contrib
 LibName31=valves
 LibName32=/Users/frehnerp/Documents/kicad/libraries/frep
+LibName33=/Users/frehnerp/Dropbox/kicad/libraries/kicad-ESP8266-master/ESP8266
