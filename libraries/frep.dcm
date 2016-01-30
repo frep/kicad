@@ -113,6 +113,12 @@ K AVR 8bit Microcontroller tinyAVR
 F http://www.atmel.com/dyn/resources/prod_documents/doc2586.pdf
 $ENDCMP
 #
+$CMP AZ1117
+D LDO VReg +3.3V
+K POWER REGULATOR
+F doc/AZ1117.pdf
+$ENDCMP
+#
 $CMP BH_2xAA
 D batterie holder 2 AA
 F doc/BH2AAPC-4.pdf
