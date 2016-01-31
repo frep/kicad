@@ -458,9 +458,9 @@ F 3 "" H 9200 5650 60  0000 C CNN
 	1    9200 5650
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5600 5000 0    40   Input ~ 0
-R2+
 Text GLabel 5600 4900 0    40   Input ~ 0
+R2+
+Text GLabel 5600 5000 0    40   Input ~ 0
 R2-
 $Comp
 L GND #PWR021
