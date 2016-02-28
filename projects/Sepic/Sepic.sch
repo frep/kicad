@@ -245,11 +245,7 @@ Wire Wire Line
 	6750 4800 6750 5200
 Wire Wire Line
 	5050 4300 5050 5200
-Wire Wire Line
-	6300 3850 7850 3850
 Connection ~ 7250 3850
-Wire Wire Line
-	7200 3350 7700 3350
 Wire Wire Line
 	6700 3350 6800 3350
 Wire Wire Line
@@ -318,7 +314,6 @@ F 3 "" H 8300 5200 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8300 2750 8300 3400
-Connection ~ 6300 2750
 Wire Wire Line
 	8300 3800 8300 5200
 $Comp
@@ -362,23 +357,23 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG09
 U 1 1 55E95355
-P 7750 5200
-F 0 "#FLG09" H 7750 5295 30  0001 C CNN
-F 1 "PWR_FLAG" H 7750 5380 30  0000 C CNN
-F 2 "" H 7750 5200 60  0000 C CNN
-F 3 "" H 7750 5200 60  0000 C CNN
-	1    7750 5200
+P 6300 5200
+F 0 "#FLG09" H 6300 5295 30  0001 C CNN
+F 1 "PWR_FLAG" H 6300 5380 30  0000 C CNN
+F 2 "" H 6300 5200 60  0000 C CNN
+F 3 "" H 6300 5200 60  0000 C CNN
+	1    6300 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 55E954C8
-P 7750 5200
-F 0 "#PWR010" H 7750 5200 30  0001 C CNN
-F 1 "GND" H 7750 5130 30  0001 C CNN
-F 2 "" H 7750 5200 60  0000 C CNN
-F 3 "" H 7750 5200 60  0000 C CNN
-	1    7750 5200
+P 6300 5200
+F 0 "#PWR010" H 6300 5200 30  0001 C CNN
+F 1 "GND" H 6300 5130 30  0001 C CNN
+F 2 "" H 6300 5200 60  0000 C CNN
+F 3 "" H 6300 5200 60  0000 C CNN
+	1    6300 5200
 	1    0    0    -1  
 $EndComp
 Connection ~ 7250 3350
@@ -394,7 +389,7 @@ Wire Notes Line
 	3750 2900 4250 2900
 Text Notes 3550 5250 0    60   ~ 0
 Enable signal (S/S) \nfrom input with \nsolder jumper or \nexternal from P32
-Text Notes 7500 4750 0    60   ~ 0
+Text Notes 7550 5000 0    60   ~ 0
 R2 can be \nreplaced by \nan external \nresistor or \n(dig.) pot.
 $Comp
 L LT1370 U1
@@ -424,24 +419,22 @@ Wire Wire Line
 $Comp
 L POT 500K1
 U 1 1 55EA1D69
-P 7700 3850
-F 0 "500K1" H 7700 3750 50  0000 C CNN
-F 1 "POT" H 7700 3850 50  0000 C CNN
-F 2 "frep:Trimmer" H 7700 3850 60  0001 C CNN
-F 3 "" H 7700 3850 60  0000 C CNN
-	1    7700 3850
+P 7750 4100
+F 0 "500K1" H 7750 4000 50  0000 C CNN
+F 1 "POT" H 7750 4100 50  0000 C CNN
+F 2 "frep:Trimmer" H 7750 4100 60  0001 C CNN
+F 3 "" H 7750 4100 60  0000 C CNN
+	1    7750 4100
 	0    -1   1    0   
 $EndComp
-Wire Wire Line
-	7700 3350 7700 3600
 Wire Notes Line
-	7500 3300 7500 4250
+	7550 3750 7550 4500
 Wire Notes Line
-	7500 4250 7950 4250
+	7550 4500 8000 4500
 Wire Notes Line
-	7950 4250 7950 3300
+	8000 4500 8000 3750
 Wire Notes Line
-	7950 3300 7500 3300
+	8000 3750 7550 3750
 $Comp
 L CP1 C5
 U 1 1 55EA3021
@@ -525,11 +518,9 @@ Wire Notes Line
 Wire Notes Line
 	9200 2300 8300 2300
 Wire Wire Line
-	8300 5000 9550 5000
+	9550 5000 8300 5000
 Wire Wire Line
-	9000 2750 9550 2750
-Wire Wire Line
-	6300 2750 8500 2750
+	9550 2750 9000 2750
 Wire Wire Line
 	2100 3300 3100 3300
 Connection ~ 2800 3300
@@ -772,7 +763,7 @@ F 3 "" H 9700 2350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9550 2750 9550 2350
+	9550 2350 9550 2750
 Connection ~ 9550 2550
 Connection ~ 9550 2750
 $Comp
@@ -820,7 +811,7 @@ F 3 "" H 9400 4800 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9550 5000 9550 4600
+	9550 4600 9550 5000
 Connection ~ 9550 4800
 Connection ~ 9550 5000
 Connection ~ 9550 4600
@@ -828,18 +819,18 @@ Connection ~ 9550 2350
 $Comp
 L POT 500K2
 U 1 1 56906635
-P 8000 3850
-F 0 "500K2" H 8000 3750 50  0000 C CNN
-F 1 "POT" H 8000 3850 50  0000 C CNN
-F 2 "frep:Trimmer" H 8000 3850 60  0001 C CNN
-F 3 "" H 8000 3850 60  0000 C CNN
-	1    8000 3850
+P 8050 4100
+F 0 "500K2" H 8050 4000 50  0000 C CNN
+F 1 "POT" H 8050 4100 50  0000 C CNN
+F 2 "frep:Trimmer" H 8050 4100 60  0001 C CNN
+F 3 "" H 8050 4100 60  0000 C CNN
+	1    8050 4100
 	0    -1   1    0   
 $EndComp
 Wire Wire Line
-	7700 3600 8000 3600
-Connection ~ 7700 3600
-Connection ~ 7550 3850
+	6300 3850 8050 3850
+Connection ~ 7750 3850
+Connection ~ 7600 4100
 $Comp
 L CONN_3X2 P30
 U 1 1 569068CA
@@ -899,7 +890,7 @@ $EndComp
 NoConn ~ 7500 2000
 NoConn ~ 7500 2200
 Wire Wire Line
-	7700 4100 8000 4100
+	7750 4350 8050 4350
 Wire Wire Line
 	3800 4100 4100 4100
 Wire Wire Line
@@ -924,4 +915,17 @@ NoConn ~ 2100 3600
 NoConn ~ 2100 3750
 Text Notes 8400 2250 0    60   ~ 0
 Place Jumper \nor external\nshunt resistor\nfor power meas.
+Wire Wire Line
+	7200 3350 7250 3350
+Wire Wire Line
+	7600 4100 7600 4350
+Wire Wire Line
+	7600 4350 7250 4350
+Connection ~ 7250 4350
+Wire Wire Line
+	7250 3350 7250 2750
+Wire Wire Line
+	7250 2750 8500 2750
+Wire Wire Line
+	7900 4100 7600 4100
 $EndSCHEMATC
