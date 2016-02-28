@@ -1,4 +1,4 @@
-update=Sonntag, 24. Januar 2016 'u16' 10:16:21
+update=Sonntag, 28. Februar 2016 'u08' 09:08:17
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,3 +82,13 @@ LibName30=contrib
 LibName31=valves
 LibName32=/Users/frehnerp/Documents/kicad/libraries/frep
 LibName33=/Users/frehnerp/Dropbox/kicad/libraries/kicad-ESP8266-master/ESP8266
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
