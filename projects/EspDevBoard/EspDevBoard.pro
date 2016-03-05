@@ -1,4 +1,4 @@
-update=Sonntag, 28. Februar 2016 'u08' 09:08:17
+update=Montag, 29. Februar 2016 'u11' 18:11:49
 version=1
 last_client=kicad
 [cvpcb]
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=
@@ -92,3 +90,5 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1
