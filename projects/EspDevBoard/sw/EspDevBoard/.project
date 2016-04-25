@@ -81,6 +81,16 @@
 			<type>2</type>
 			<locationURI>ArduinoPinPath/nodemcu</locationURI>
 		</link>
+		<link>
+			<name>core/core</name>
+			<type>2</type>
+			<location>/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/2.1.0/cores/esp8266</location>
+		</link>
+		<link>
+			<name>core/variant</name>
+			<type>2</type>
+			<location>/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/2.1.0/variants/nodemcu</location>
+		</link>
 	</linkedResources>
 	<variableList>
 		<variable>

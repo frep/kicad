@@ -71,7 +71,7 @@ private:
 	void loopDisplay();
 	void setupWifi();
 	void loopWifi();
-	void updateSetValues();
+	void updateDisplayValues();
 	void updateSetVoltage();
 	void updateSetCurrent();
 	// NTP

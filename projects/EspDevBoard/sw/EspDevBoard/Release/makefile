@@ -9,6 +9,10 @@ RM := rm -f
 # All of the sources participating in the build are defined here
 -include sources.mk
 -include subdir.mk
+-include core/core/umm_malloc/subdir.mk
+-include core/core/spiffs/subdir.mk
+-include core/core/libb64/subdir.mk
+-include core/core/subdir.mk
 -include arduino/core/umm_malloc/subdir.mk
 -include arduino/core/spiffs/subdir.mk
 -include arduino/core/libb64/subdir.mk
@@ -80,19 +84,19 @@ all: EspDevBoard
 EspDevBoard: $(FLASH_IMAGE)
 	@echo 'Building target: $@'
 	@echo 'Printing size:'
-	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9/bin/xtensa-lx106-elf-size" -A "/Users/frehnerp/Documents/workspace/EspDevBoard/Release/EspDevBoard.elf"
+	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9/bin/xtensa-lx106-elf-size" -A "/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release/EspDevBoard.elf"
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 arduino.ar: $(AR_OBJ)
 	@echo 'Starting archiver'
-	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9/bin/xtensa-lx106-elf-ar" cru  "/Users/frehnerp/Documents/workspace/EspDevBoard/Release/arduino.ar"   $(AR_OBJ)
+	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9/bin/xtensa-lx106-elf-ar" cru  "/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release/arduino.ar"   $(AR_OBJ)
 	@echo 'Finished building: $@'
 	@echo ' '
 
 EspDevBoard.elf: $(LINK_OBJ) $(AR)
 	@echo 'Starting combiner'
-	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9/bin/xtensa-lx106-elf-gcc" -g -Os -nostdlib -Wl,--no-check-sections -u call_user_start -Wl,-static "-L/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/tools/sdk/lib" "-L/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/tools/sdk/ld" "-Teagle.flash.4m.ld" -Wl,--gc-sections -Wl,-wrap,system_restart_local -Wl,-wrap,register_chipv6_phy  -o "/Users/frehnerp/Documents/workspace/EspDevBoard/Release/EspDevBoard.elf" -Wl,--start-group   $(LINK_OBJ) $(AR)  "/Users/frehnerp/Documents/workspace/EspDevBoard/Release/arduino.ar" -lm -lgcc -lhal -lphy -lpp -lnet80211 -llwip -lwpa -lcrypto -lmain -lwps -laxtls -lsmartconfig -lmesh -lwpa2 -Wl,--end-group  "-L/Users/frehnerp/Documents/workspace/EspDevBoard/Release"
+	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/xtensa-lx106-elf-gcc/1.20.0-26-gb404fb9/bin/xtensa-lx106-elf-gcc" -g -Os -nostdlib -Wl,--no-check-sections -u call_user_start -Wl,-static "-L/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/tools/sdk/lib" "-L/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/tools/sdk/ld" "-Teagle.flash.4m.ld" -Wl,--gc-sections -Wl,-wrap,system_restart_local -Wl,-wrap,register_chipv6_phy  -o "/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release/EspDevBoard.elf" -Wl,--start-group   $(LINK_OBJ) $(AR)  "/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release/arduino.ar" -lm -lgcc -lhal -lphy -lpp -lnet80211 -llwip -lwpa -lcrypto -lmain -lwps -laxtls -lsmartconfig -lmesh -lwpa2 -Wl,--end-group  "-L/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release"
 	@echo 'Finished building: $@'
 	@echo ' '
 
@@ -104,7 +108,7 @@ EspDevBoard.eep: $(ELF)
 
 EspDevBoard.bin: $(EEP)
 	@echo 'Create Flash image (ihex format)'
-	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/esptool/0.4.5/esptool" -eo "/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/bootloaders/eboot/eboot.elf" -bo "/Users/frehnerp/Documents/workspace/EspDevBoard/Release/EspDevBoard.bin" -bm dio -bf 40 -bz 4M -bs .text -bp 4096 -ec -eo "/Users/frehnerp/Documents/workspace/EspDevBoard/Release/EspDevBoard.elf" -bs .irom0.text -bs .text -bs .data -bs .rodata -bc -ec
+	"/Users/frehnerp/Library/Arduino15/packages/esp8266/tools/esptool/0.4.5/esptool" -eo "/Users/frehnerp/Library/Arduino15/packages/esp8266/hardware/esp8266/1.6.5-947-g39819f0/bootloaders/eboot/eboot.elf" -bo "/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release/EspDevBoard.bin" -bm dio -bf 40 -bz 4M -bs .text -bp 4096 -ec -eo "/Users/frehnerp/Documents/kicad/projects/EspDevBoard/sw/EspDevBoard/Release/EspDevBoard.elf" -bs .irom0.text -bs .text -bs .data -bs .rodata -bc -ec
 	@echo 'Finished building: $@'
 	@echo ' '
 

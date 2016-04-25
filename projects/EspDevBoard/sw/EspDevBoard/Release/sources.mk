@@ -51,4 +51,8 @@ arduino/core \
 arduino/core/libb64 \
 arduino/core/spiffs \
 arduino/core/umm_malloc \
+core/core \
+core/core/libb64 \
+core/core/spiffs \
+core/core/umm_malloc \
 

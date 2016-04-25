@@ -82,10 +82,10 @@ void EspDevBoard::setupDisplay()
 	display->drawButton(10, 108, 60, 20, "Settings", display->BLACK, display->YELLOW);
 	display->drawButton(90, 108, 60, 20, "Save", display->BLACK, display->YELLOW);
 
-	display->printFloat2xCentered(56, 40, (ina219->getBusVoltage_V() + (ina219->getShuntVoltage_mV() / 1000)), 1, display->GREEN, display->BLACK);
-	display->printInt2xCentered(56, 120, ina219->getCurrent_mA(), 4, display->GREEN, display->BLACK);
+	//display->printFloat2xCentered(56, 40, (ina219->getBusVoltage_V() + (ina219->getShuntVoltage_mV() / 1000)), 1, display->GREEN, display->BLACK);
+	//display->printInt2xCentered(56, 120, ina219->getCurrent_mA(), 4, display->GREEN, display->BLACK);
 
-	updateSetValues();
+	updateDisplayValues();
 
 	display->printTextCentered(35, 40, "Volts", display->GREEN, display->BLACK);
 	display->printTextCentered(35, 120, "Milliamps", display->GREEN, display->BLACK);
@@ -96,11 +96,11 @@ void EspDevBoard::loopDisplay()
 {
 	config.sepicEnabled ? led->setOn() : led->setOff();
 
-	updateSetValues();
+	updateDisplayValues();
 
 	delay(200);
-	display->printFloat2xCentered(56, 40, (ina219->getBusVoltage_V() + (ina219->getShuntVoltage_mV() / 1000)), 1, display->GREEN, display->BLACK);
-	display->printInt2xCentered(56, 120, ina219->getCurrent_mA(), 4, display->GREEN, display->BLACK);
+	//display->printFloat2xCentered(56, 40, (ina219->getBusVoltage_V() + (ina219->getShuntVoltage_mV() / 1000)), 1, display->GREEN, display->BLACK);
+	//display->printInt2xCentered(56, 120, ina219->getCurrent_mA(), 4, display->GREEN, display->BLACK);
 }
 
 void EspDevBoard::setupWifi()
@@ -239,11 +239,12 @@ void EspDevBoard::loopWifi()
 
 }
 
-void EspDevBoard::updateSetValues()
+void EspDevBoard::updateDisplayValues()
 {
 	updateSetVoltage();
 	updateSetCurrent();
-
+	display->printFloat2xCentered(56, 40, (ina219->getBusVoltage_V() + (ina219->getShuntVoltage_mV() / 1000)), 1, display->GREEN, display->BLACK);
+	display->printInt2xCentered(56, 120, ina219->getCurrent_mA(), 4, display->GREEN, display->BLACK);
 }
 
 void EspDevBoard::updateSetVoltage()
