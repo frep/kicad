@@ -119,6 +119,10 @@ K POWER REGULATOR
 F doc/AZ1117.pdf
 $ENDCMP
 #
+$CMP BARREL_JACK
+D DC Barrel Jack
+$ENDCMP
+#
 $CMP BH_2xAA
 D batterie holder 2 AA
 F doc/BH2AAPC-4.pdf
@@ -374,8 +378,8 @@ F doc/ina169.pdf
 $ENDCMP
 #
 $CMP INA219
-D i2c zero-drift bidirectional current monitor
-F doc/INA219.pdf
+D USB Dedicated Charging Port Controller
+F doc/tps2513a.pdf
 $ENDCMP
 #
 $CMP INA219_SOT23_8
@@ -540,6 +544,12 @@ K POWER REGULATOR
 F doc/NCP1117-D.PDF
 $ENDCMP
 #
+$CMP NHD-1.69-160128UGC3
+D NHD-1.69-160128UGC3
+K display
+F /Users/frehnerp/Documents/kicad/libraries/doc/NHD-1.69-160128UGC3.pdf
+$ENDCMP
+#
 $CMP NODE_MCU
 D NodeMcu (ESP8266)
 K NodeMcu Esp8266 based microcontroller
@@ -623,6 +633,11 @@ $CMP TMP36
 D TMP36: linear temperature sensor
 K Temperature sensor
 F doc/TMP35_36_37.pdf
+$ENDCMP
+#
+$CMP TPS2513
+D i2c zero-drift bidirectional current monitor
+F doc/INA219.pdf
 $ENDCMP
 #
 $CMP USB-A-Jack

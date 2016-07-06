@@ -1,4 +1,4 @@
-(module Diode-MiniMELF_Handsoldering (layer F.Cu)
+(module Diode-MiniMELF_Handsoldering (layer F.Cu) (tedit 571FA15B)
   (descr "Diode Mini-MELF Handsoldering")
   (tags "Diode Mini-MELF Handsoldering")
   (attr smd)
@@ -21,8 +21,8 @@
   (fp_text user K (at 1.80086 1.5494) (layer F.SilkS)
     (effects (font (size 0.50038 0.50038) (thickness 0.09906)))
   )
-  (pad 1 smd rect (at -2.75082 0) (size 3.29946 1.69926) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 2.75082 0) (size 3.29946 1.69926) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at -2.54 0) (size 3.29946 1.69926) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.54 0) (size 3.29946 1.69926) (layers F.Cu F.Paste F.Mask))
   (model MiniMELF_DO213AA_Faktor03937_RevA_06Sep2012.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
