@@ -656,17 +656,17 @@ F 3 "" H 4200 3350 60  0000 C CNN
 $EndComp
 Text Notes 2950 3725 0    60   ~ 0
 i2c slave address: 0x20
-Text GLabel 4200 2750 2    40   Input ~ 0
+Text GLabel 4200 2550 2    40   Input ~ 0
 SW1
 Text GLabel 4200 2650 2    40   Input ~ 0
 A1
-Text GLabel 4200 2550 2    40   Input ~ 0
+Text GLabel 4200 2750 2    40   Input ~ 0
 B1
-Text GLabel 4200 2450 2    40   Input ~ 0
+Text GLabel 4200 2250 2    40   Input ~ 0
 SW2
 Text GLabel 4200 2350 2    40   Input ~ 0
 A2
-Text GLabel 4200 2250 2    40   Input ~ 0
+Text GLabel 4200 2450 2    40   Input ~ 0
 B2
 NoConn ~ 4200 2150
 NoConn ~ 4200 2050
@@ -678,7 +678,6 @@ Text GLabel 2700 2350 0    40   Input ~ 0
 But4
 Text GLabel 2700 2150 0    40   Input ~ 0
 But2
-NoConn ~ 2700 2450
 NoConn ~ 2700 2550
 NoConn ~ 2700 2650
 NoConn ~ 2700 2750
@@ -861,4 +860,6 @@ Text Notes 5960 860  0    80   ~ 0
 rotary encoder
 Wire Notes Line
 	8055 5150 8055 475 
+Text GLabel 2700 2450 0    40   Input ~ 0
+loadOn
 $EndSCHEMATC
