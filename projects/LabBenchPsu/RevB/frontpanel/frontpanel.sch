@@ -693,15 +693,15 @@ NoConn ~ 6100 7050
 NoConn ~ 6100 7200
 NoConn ~ 6100 7350
 NoConn ~ 6100 7500
-Text GLabel 9950 1650 0    40   Input ~ 0
+Text GLabel 9950 1425 0    40   Input ~ 0
 MOSI
-Text GLabel 9950 1350 0    40   Input ~ 0
+Text GLabel 9950 1650 0    40   Input ~ 0
 CS
 Text GLabel 9950 1725 0    40   Input ~ 0
 RS
-Text GLabel 9950 1800 0    40   Input ~ 0
+Text GLabel 9950 1350 0    40   Input ~ 0
 SCLK
-Text GLabel 9950 1425 0    40   Input ~ 0
+Text GLabel 9950 1800 0    40   Input ~ 0
 RES
 NoConn ~ 10600 2025
 Text GLabel 8325 2250 0    40   Input ~ 0
@@ -910,7 +910,7 @@ F 3 "" H 4500 1425 60  0000 C CNN
 	1    4500 1425
 	-1   0    0    1   
 $EndComp
-Text Notes 4350 1875 0    60   ~ 0
+Text Notes 4275 1825 0    60   ~ 0
 screw-\nterminal\n(power)
 Text Notes 5175 2150 0    60   ~ 0
 hole
@@ -936,7 +936,6 @@ F 3 "" H 1200 1700 60  0000 C CNN
 	1    1200 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4850 1425
 Text GLabel 6150 5225 2    40   Input ~ 0
 12V
 $Comp
@@ -1365,7 +1364,7 @@ Text Notes 7775 1975 0    80   ~ 0
 connectors
 Text GLabel 5425 4050 1    40   Input ~ 0
 ADJ
-Text GLabel 4850 1525 3    40   Input ~ 0
+Text GLabel 4850 1825 3    40   Input ~ 0
 ADJ
 Text Notes 2200 2175 0    60   ~ 0
 Screw PSU cables here!
@@ -1531,13 +1530,9 @@ Wire Notes Line
 Wire Notes Line
 	5550 1400 5775 1400
 Wire Notes Line
-	5150 1525 4850 1525
-Wire Notes Line
 	5150 1325 5000 1325
 Wire Notes Line
 	5000 1025 5000 1425
-Wire Notes Line
-	5000 1425 4850 1425
 Wire Notes Line
 	700  1150 700  2250
 Wire Notes Line
@@ -1582,4 +1577,46 @@ Text GLabel 5775 1800 2    40   Input ~ 0
 loadOn
 Text GLabel 5775 1200 1    40   Input ~ 0
 3V3Reg
+$Comp
+L DIODE D6
+U 1 1 578FDAEA
+P 4750 2025
+F 0 "D6" H 4750 2125 40  0000 C CNN
+F 1 "DIODE" H 4750 1925 40  0000 C CNN
+F 2 "frep:DO-221BC" H 4750 2025 60  0001 C CNN
+F 3 "" H 4750 2025 60  0000 C CNN
+	1    4750 2025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D7
+U 1 1 578FDBA4
+P 5000 1625
+F 0 "D7" H 5000 1725 40  0000 C CNN
+F 1 "DIODE" H 5000 1525 40  0000 C CNN
+F 2 "frep:DO-221BC" H 5000 1625 60  0001 C CNN
+F 3 "" H 5000 1625 60  0000 C CNN
+	1    5000 1625
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR050
+U 1 1 578FE713
+P 4750 2225
+F 0 "#PWR050" H 4750 2225 30  0001 C CNN
+F 1 "GND" H 4750 2155 30  0001 C CNN
+F 2 "" H 4750 2225 60  0000 C CNN
+F 3 "" H 4750 2225 60  0000 C CNN
+	1    4750 2225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 1425 4850 1425
+Wire Wire Line
+	4850 1825 4850 1525
+Wire Wire Line
+	4750 1825 5000 1825
+Connection ~ 4850 1825
+Wire Notes Line
+	5150 1525 4850 1525
 $EndSCHEMATC
