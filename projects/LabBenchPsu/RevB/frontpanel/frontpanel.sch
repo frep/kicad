@@ -697,11 +697,11 @@ Text GLabel 9950 1425 0    40   Input ~ 0
 MOSI
 Text GLabel 9950 1650 0    40   Input ~ 0
 CS
-Text GLabel 9950 1725 0    40   Input ~ 0
+Text GLabel 9950 1800 0    40   Input ~ 0
 RS
 Text GLabel 9950 1350 0    40   Input ~ 0
 SCLK
-Text GLabel 9950 1800 0    40   Input ~ 0
+Text GLabel 9950 1725 0    40   Input ~ 0
 RES
 NoConn ~ 10600 2025
 Text GLabel 8325 2250 0    40   Input ~ 0
