@@ -10,6 +10,7 @@ Not working:
 ------------
  * LiPo charging indicators (2 leds) worked first, but not anymore. Maybe too low current resistor used?
  * Load on  indicator on the gpio-expander not working. Probably signal too low since it's taken after loadOn-diode.
+
 More or less working:
 ---------------------
  * LiPo charger with different load currents works up to about 500mA. Imo it should work up to 1000mA. 
