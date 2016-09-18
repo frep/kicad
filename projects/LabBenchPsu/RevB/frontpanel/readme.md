@@ -24,3 +24,4 @@ Improvements for a next revision:
  * Placement of the gpio-expander: out of the way from the display
  * LoadOn - signal should be read out correct.
  * Maybe adding an ina219 for measuring the load current of the LiPo charger. With this feedback, loadcurrent could be controlled.
+ * Screw terminal have quite small diameters. Maybe use bigger ones or more of them (at least for 5V)
