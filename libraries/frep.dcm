@@ -504,6 +504,11 @@ D spi gpio expander (MCP23S17)
 F doc/MCP23S17.pdf
 $ENDCMP
 #
+$CMP MCP3204
+D 4 channel ADC 12bit
+F /Users/frehnerp/Documents/kicad/libraries/doc/MCP3204-CIP.pdf
+$ENDCMP
+#
 $CMP MCP3204-CI/P
 D spi 4-channel 12-bit adc
 F doc/MCP3204-CIP.pdf
@@ -515,6 +520,10 @@ F doc/mcp4017.pdf
 $ENDCMP
 #
 $CMP MCP4716
+D i2c 12bit DAC
+$ENDCMP
+#
+$CMP MCP4725
 D i2c 10bit DAC
 F doc/MCP4716.pdf
 $ENDCMP
