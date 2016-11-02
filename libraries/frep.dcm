@@ -524,8 +524,8 @@ D i2c 12bit DAC
 $ENDCMP
 #
 $CMP MCP4725
-D i2c 10bit DAC
-F doc/MCP4716.pdf
+D i2c 12bit DAC
+F doc/MCP4725.pdf
 $ENDCMP
 #
 $CMP MCP4922-E/P
