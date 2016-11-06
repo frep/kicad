@@ -561,4 +561,6 @@ Text Notes 5425 3650 0    100  ~ 0
 I_LOAD
 Wire Wire Line
 	4025 3700 7925 3700
+Text Notes 5575 825  0    60   ~ 0
+i2c addr: 1000101 = 0x45
 $EndSCHEMATC

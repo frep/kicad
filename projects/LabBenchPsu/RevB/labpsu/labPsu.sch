@@ -1134,4 +1134,6 @@ Wire Wire Line
 Wire Wire Line
 	9450 3250 9850 3250
 Connection ~ 9450 2450
+Text Notes 6600 5800 2    50   ~ 0
+i2c addr: 0011100 = 0x1C
 $EndSCHEMATC

@@ -453,4 +453,6 @@ F 3 "" H 3650 2025 60  0000 C CNN
 $EndComp
 NoConn ~ 3750 2375
 NoConn ~ 3550 2375
+Text Notes 6875 4325 0    60   ~ 0
+i2c addr: 0101111 = 0x2F
 $EndSCHEMATC
