@@ -425,6 +425,30 @@ D led
 K LED
 $ENDCMP
 #
+$CMP LM2902N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324AN
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
+$CMP LM324N
+D Quad Op amp.
+K AmpliOp
+F op_amps/lm324.pdf
+$ENDCMP
+#
 $CMP LM334Z
 D adjustable current source
 F doc/LM334Z.pdf
@@ -465,6 +489,11 @@ $ENDCMP
 $CMP MAX4080T
 D current sense 76V high-side with voltage output
 F doc/MAX4080.pdf
+$ENDCMP
+#
+$CMP MAX5814
+D i2c 10bit quad channel DAC
+F /Users/frehnerp/Documents/kicad/libraries/doc/MAX5814.pdf
 $ENDCMP
 #
 $CMP MAX7219
@@ -526,6 +555,10 @@ $ENDCMP
 $CMP MCP4725
 D i2c 12bit DAC
 F doc/MCP4725.pdf
+$ENDCMP
+#
+$CMP MCP47FEB12A0
+D i2c 10bit dual channel DAC
 $ENDCMP
 #
 $CMP MCP4922-E/P
@@ -636,6 +669,16 @@ $ENDCMP
 $CMP THYRISTOR
 D thyristor
 K DEV DIODE
+$ENDCMP
+#
+$CMP TL074
+D Quad Op amp. Mos
+K AmpliOp Mos
+$ENDCMP
+#
+$CMP TLC274
+D Quad Op amp. Mos
+K AmpliOp Mos
 $ENDCMP
 #
 $CMP TMP36

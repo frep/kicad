@@ -37,13 +37,13 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 5
 Title "Lab Psu (0-20V 0-2A)"
-Date ""
+Date "2016-11-06"
 Rev "B"
 Comp ""
-Comment1 ""
-Comment2 "- Powered from standard pc psu (12V)"
-Comment3 "- SEPIC converter"
-Comment4 "- Switching pre regulator"
+Comment1 "- based on David Jones' uSupply project"
+Comment2 "- Preregulation with SEPIC converter "
+Comment3 "- Powered from standard pc psu (12V)"
+Comment4 "- 2 pcb concept. To be used together with frontpanel pcb"
 $EndDescr
 $Comp
 L CP1 C13
@@ -440,4 +440,17 @@ F 3 "" H 8900 3350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8900 2700
+$Comp
+L CONN_2 P9
+U 1 1 581FF4E7
+P 3650 2025
+F 0 "P9" V 3600 2025 40  0000 C CNN
+F 1 "Heatsink" V 3700 2025 40  0000 C CNN
+F 2 "" H 3650 2025 60  0001 C CNN
+F 3 "" H 3650 2025 60  0000 C CNN
+	1    3650 2025
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 3750 2375
+NoConn ~ 3550 2375
 $EndSCHEMATC
